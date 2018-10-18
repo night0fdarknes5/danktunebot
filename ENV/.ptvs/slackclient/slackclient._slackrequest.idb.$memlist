@@ -1,0 +1,7 @@
+requests
+platform
+SlackRequest
+six
+json
+sys
+__version__

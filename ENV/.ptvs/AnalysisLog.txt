@@ -1,0 +1,1427 @@
+﻿
+2017-05-16T22:19:51: Start analysis
+2017-05-16T22:19:51: [WARNING] Library was set explicitly - skipping path detection
+2017-05-16T22:19:51: IncludeModulesFromModulePath = win32com
+2017-05-16T22:19:51: Deleting 0 files
+2017-05-16T22:19:51: Scraping builtin modules
+2017-05-16T22:19:51: Command: "C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Scripts\python.exe" "C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\PythonScraper.py" "C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\.ptvs\\" "C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\\"
+2017-05-16T22:19:52: Output
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\_codecs.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\_collections.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\_functools.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\_heapq.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\_io.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\_locale.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\_md5.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\_random.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\_sha256.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\_sha512.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\_sre.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\_struct.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\_warnings.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\_weakref.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\array.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\binascii.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\cmath.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\errno.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\gc.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\itertools.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\marshal.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\math.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\mmap.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\msvcrt.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\nt.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\sys.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\time.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\xxsubtype.idb
+2017-05-16T22:19:52: Scraped builtin modules
+2017-05-16T22:19:52: astropy.CallDepth = 0
+2017-05-16T22:19:52: matplotlib.CallDepth = 3
+2017-05-16T22:19:52: pandas.CallDepth = 0
+2017-05-16T22:19:52: sympy.CallDepth = 0
+2017-05-16T22:19:52: Start group "C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib" with 179 files
+2017-05-16T22:19:52: Parsing "abc" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\abc.py")
+2017-05-16T22:19:52: Parsing "base64" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\base64.py")
+2017-05-16T22:19:52: Parsing "bisect" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\bisect.py")
+2017-05-16T22:19:52: Parsing "codecs" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\codecs.py")
+2017-05-16T22:19:52: Parsing "copy" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\copy.py")
+2017-05-16T22:19:53: Parsing "copyreg" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\copyreg.py")
+2017-05-16T22:19:53: Parsing "enum" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\enum.py")
+2017-05-16T22:19:53: Parsing "fnmatch" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\fnmatch.py")
+2017-05-16T22:19:53: Parsing "functools" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\functools.py")
+2017-05-16T22:19:53: [WARNING] File "C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\functools.py" contained parse errors
+2017-05-16T22:19:53: (279,38) - (279,43) only one * allowed
+(286,22) - (286,33) invalid syntax
+(286,34) - (286,37) unexpected token 'for'
+(286,69) - (286,70) unexpected token ')'
+(286,70) - (287,9) unexpected token '<newline>'
+(287,9) - (287,11) unexpected token 'if'
+(287,48) - (287,49) unexpected token ':'
+(287,49) - (288,13) unexpected token '<newline>'
+(287,49) - (288,13) unexpected token '<indent>'
+(288,21) - (288,62) invalid syntax
+(289,9) - (289,15) 'return' outside function
+(289,17) - (289,48) invalid syntax
+(299,30) - (299,75) invalid syntax
+(299,75) - (299,76) unexpected token ')'
+(299,76) - (300,9) unexpected token '<newline>'
+(299,76) - (300,9) unexpected token '<dedent>'
+2017-05-16T22:19:53: Parsing "genericpath" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\genericpath.py")
+2017-05-16T22:19:53: Parsing "hashlib" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\hashlib.py")
+2017-05-16T22:19:53: Parsing "heapq" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\heapq.py")
+2017-05-16T22:19:53: Parsing "hmac" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\hmac.py")
+2017-05-16T22:19:53: Parsing "imp" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\imp.py")
+2017-05-16T22:19:53: Parsing "io" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\io.py")
+2017-05-16T22:19:53: Parsing "keyword" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\keyword.py")
+2017-05-16T22:19:53: Parsing "linecache" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\linecache.py")
+2017-05-16T22:19:53: Parsing "locale" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\locale.py")
+2017-05-16T22:19:53: Parsing "ntpath" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\ntpath.py")
+2017-05-16T22:19:53: Parsing "operator" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\operator.py")
+2017-05-16T22:19:53: Parsing "os" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\os.py")
+2017-05-16T22:19:53: Parsing "posixpath" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\posixpath.py")
+2017-05-16T22:19:53: Parsing "random" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\random.py")
+2017-05-16T22:19:53: Parsing "re" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\re.py")
+2017-05-16T22:19:53: Parsing "reprlib" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\reprlib.py")
+2017-05-16T22:19:53: Parsing "rlcompleter" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\rlcompleter.py")
+2017-05-16T22:19:53: Parsing "shutil" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\shutil.py")
+2017-05-16T22:19:53: Parsing "site" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site.py")
+2017-05-16T22:19:53: Parsing "sre_compile" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\sre_compile.py")
+2017-05-16T22:19:53: Parsing "sre_constants" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\sre_constants.py")
+2017-05-16T22:19:53: Parsing "sre_parse" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\sre_parse.py")
+2017-05-16T22:19:53: Parsing "stat" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\stat.py")
+2017-05-16T22:19:53: Parsing "struct" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\struct.py")
+2017-05-16T22:19:53: Parsing "tarfile" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\tarfile.py")
+2017-05-16T22:19:53: Parsing "tempfile" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\tempfile.py")
+2017-05-16T22:19:53: Parsing "token" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\token.py")
+2017-05-16T22:19:53: Parsing "tokenize" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\tokenize.py")
+2017-05-16T22:19:53: Parsing "types" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\types.py")
+2017-05-16T22:19:53: [WARNING] File "C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\types.py" contained parse errors
+2017-05-16T22:19:53: (28,5) - (28,10) 'yield' inside async function
+2017-05-16T22:19:53: Parsing "warnings" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\warnings.py")
+2017-05-16T22:19:53: Parsing "weakref" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\weakref.py")
+2017-05-16T22:19:53: Parsing "_bootlocale" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\_bootlocale.py")
+2017-05-16T22:19:53: Parsing "_collections_abc" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\_collections_abc.py")
+2017-05-16T22:19:53: [WARNING] File "C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\_collections_abc.py" contained parse errors
+2017-05-16T22:19:53: (64,18) - (64,23) 'yield' inside async function
+2017-05-16T22:19:53: Parsing "_dummy_thread" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\_dummy_thread.py")
+2017-05-16T22:19:53: Parsing "_weakrefset" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\_weakrefset.py")
+2017-05-16T22:19:53: Parsing "__future__" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\__future__.py")
+2017-05-16T22:19:53: Parsing "collections.abc" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\collections\abc.py")
+2017-05-16T22:19:53: Parsing "collections" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\collections\__init__.py")
+2017-05-16T22:19:53: Parsing "distutils" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\distutils\__init__.py")
+2017-05-16T22:19:53: Parsing "encodings.aliases" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\aliases.py")
+2017-05-16T22:19:53: Parsing "encodings.ascii" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\ascii.py")
+2017-05-16T22:19:53: Parsing "encodings.base64_codec" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\base64_codec.py")
+2017-05-16T22:19:53: Parsing "encodings.big5" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\big5.py")
+2017-05-16T22:19:53: Parsing "encodings.big5hkscs" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\big5hkscs.py")
+2017-05-16T22:19:53: Parsing "encodings.bz2_codec" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\bz2_codec.py")
+2017-05-16T22:19:53: Parsing "encodings.charmap" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\charmap.py")
+2017-05-16T22:19:53: Parsing "encodings.cp037" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\cp037.py")
+2017-05-16T22:19:53: Parsing "encodings.cp1006" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\cp1006.py")
+2017-05-16T22:19:53: Parsing "encodings.cp1026" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\cp1026.py")
+2017-05-16T22:19:53: Parsing "encodings.cp1125" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\cp1125.py")
+2017-05-16T22:19:53: Parsing "encodings.cp1140" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\cp1140.py")
+2017-05-16T22:19:53: Parsing "encodings.cp1250" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\cp1250.py")
+2017-05-16T22:19:53: Parsing "encodings.cp1251" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\cp1251.py")
+2017-05-16T22:19:53: Parsing "encodings.cp1252" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\cp1252.py")
+2017-05-16T22:19:53: Parsing "encodings.cp1253" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\cp1253.py")
+2017-05-16T22:19:53: Parsing "encodings.cp1254" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\cp1254.py")
+2017-05-16T22:19:53: Parsing "encodings.cp1255" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\cp1255.py")
+2017-05-16T22:19:53: Parsing "encodings.cp1256" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\cp1256.py")
+2017-05-16T22:19:53: Parsing "encodings.cp1257" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\cp1257.py")
+2017-05-16T22:19:53: Parsing "encodings.cp1258" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\cp1258.py")
+2017-05-16T22:19:53: Parsing "encodings.cp273" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\cp273.py")
+2017-05-16T22:19:53: Parsing "encodings.cp424" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\cp424.py")
+2017-05-16T22:19:53: Parsing "encodings.cp437" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\cp437.py")
+2017-05-16T22:19:53: Parsing "encodings.cp500" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\cp500.py")
+2017-05-16T22:19:53: Parsing "encodings.cp65001" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\cp65001.py")
+2017-05-16T22:19:53: Parsing "encodings.cp720" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\cp720.py")
+2017-05-16T22:19:53: Parsing "encodings.cp737" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\cp737.py")
+2017-05-16T22:19:53: Parsing "encodings.cp775" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\cp775.py")
+2017-05-16T22:19:53: Parsing "encodings.cp850" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\cp850.py")
+2017-05-16T22:19:53: Parsing "encodings.cp852" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\cp852.py")
+2017-05-16T22:19:53: Parsing "encodings.cp855" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\cp855.py")
+2017-05-16T22:19:53: Parsing "encodings.cp856" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\cp856.py")
+2017-05-16T22:19:53: Parsing "encodings.cp857" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\cp857.py")
+2017-05-16T22:19:53: Parsing "encodings.cp858" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\cp858.py")
+2017-05-16T22:19:53: Parsing "encodings.cp860" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\cp860.py")
+2017-05-16T22:19:53: Parsing "encodings.cp861" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\cp861.py")
+2017-05-16T22:19:53: Parsing "encodings.cp862" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\cp862.py")
+2017-05-16T22:19:53: Parsing "encodings.cp863" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\cp863.py")
+2017-05-16T22:19:53: Parsing "encodings.cp864" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\cp864.py")
+2017-05-16T22:19:53: Parsing "encodings.cp865" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\cp865.py")
+2017-05-16T22:19:53: Parsing "encodings.cp866" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\cp866.py")
+2017-05-16T22:19:53: Parsing "encodings.cp869" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\cp869.py")
+2017-05-16T22:19:53: Parsing "encodings.cp874" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\cp874.py")
+2017-05-16T22:19:53: Parsing "encodings.cp875" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\cp875.py")
+2017-05-16T22:19:53: Parsing "encodings.cp932" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\cp932.py")
+2017-05-16T22:19:53: Parsing "encodings.cp949" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\cp949.py")
+2017-05-16T22:19:53: Parsing "encodings.cp950" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\cp950.py")
+2017-05-16T22:19:53: Parsing "encodings.euc_jisx0213" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\euc_jisx0213.py")
+2017-05-16T22:19:53: Parsing "encodings.euc_jis_2004" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\euc_jis_2004.py")
+2017-05-16T22:19:53: Parsing "encodings.euc_jp" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\euc_jp.py")
+2017-05-16T22:19:53: Parsing "encodings.euc_kr" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\euc_kr.py")
+2017-05-16T22:19:53: Parsing "encodings.gb18030" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\gb18030.py")
+2017-05-16T22:19:53: Parsing "encodings.gb2312" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\gb2312.py")
+2017-05-16T22:19:53: Parsing "encodings.gbk" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\gbk.py")
+2017-05-16T22:19:53: Parsing "encodings.hex_codec" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\hex_codec.py")
+2017-05-16T22:19:53: Parsing "encodings.hp_roman8" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\hp_roman8.py")
+2017-05-16T22:19:53: Parsing "encodings.hz" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\hz.py")
+2017-05-16T22:19:53: Parsing "encodings.idna" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\idna.py")
+2017-05-16T22:19:53: Parsing "encodings.iso2022_jp" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\iso2022_jp.py")
+2017-05-16T22:19:53: Parsing "encodings.iso2022_jp_1" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\iso2022_jp_1.py")
+2017-05-16T22:19:53: Parsing "encodings.iso2022_jp_2" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\iso2022_jp_2.py")
+2017-05-16T22:19:53: Parsing "encodings.iso2022_jp_2004" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\iso2022_jp_2004.py")
+2017-05-16T22:19:53: Parsing "encodings.iso2022_jp_3" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\iso2022_jp_3.py")
+2017-05-16T22:19:53: Parsing "encodings.iso2022_jp_ext" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\iso2022_jp_ext.py")
+2017-05-16T22:19:53: Parsing "encodings.iso2022_kr" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\iso2022_kr.py")
+2017-05-16T22:19:53: Parsing "encodings.iso8859_1" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\iso8859_1.py")
+2017-05-16T22:19:53: Parsing "encodings.iso8859_10" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\iso8859_10.py")
+2017-05-16T22:19:53: Parsing "encodings.iso8859_11" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\iso8859_11.py")
+2017-05-16T22:19:53: Parsing "encodings.iso8859_13" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\iso8859_13.py")
+2017-05-16T22:19:53: Parsing "encodings.iso8859_14" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\iso8859_14.py")
+2017-05-16T22:19:53: Parsing "encodings.iso8859_15" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\iso8859_15.py")
+2017-05-16T22:19:53: Parsing "encodings.iso8859_16" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\iso8859_16.py")
+2017-05-16T22:19:53: Parsing "encodings.iso8859_2" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\iso8859_2.py")
+2017-05-16T22:19:53: Parsing "encodings.iso8859_3" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\iso8859_3.py")
+2017-05-16T22:19:53: Parsing "encodings.iso8859_4" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\iso8859_4.py")
+2017-05-16T22:19:53: Parsing "encodings.iso8859_5" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\iso8859_5.py")
+2017-05-16T22:19:53: Parsing "encodings.iso8859_6" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\iso8859_6.py")
+2017-05-16T22:19:53: Parsing "encodings.iso8859_7" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\iso8859_7.py")
+2017-05-16T22:19:53: Parsing "encodings.iso8859_8" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\iso8859_8.py")
+2017-05-16T22:19:53: Parsing "encodings.iso8859_9" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\iso8859_9.py")
+2017-05-16T22:19:53: Parsing "encodings.johab" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\johab.py")
+2017-05-16T22:19:53: Parsing "encodings.koi8_r" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\koi8_r.py")
+2017-05-16T22:19:53: Parsing "encodings.koi8_t" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\koi8_t.py")
+2017-05-16T22:19:53: Parsing "encodings.koi8_u" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\koi8_u.py")
+2017-05-16T22:19:53: Parsing "encodings.kz1048" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\kz1048.py")
+2017-05-16T22:19:53: Parsing "encodings.latin_1" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\latin_1.py")
+2017-05-16T22:19:53: Parsing "encodings.mac_arabic" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\mac_arabic.py")
+2017-05-16T22:19:53: Parsing "encodings.mac_centeuro" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\mac_centeuro.py")
+2017-05-16T22:19:53: Parsing "encodings.mac_croatian" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\mac_croatian.py")
+2017-05-16T22:19:53: Parsing "encodings.mac_cyrillic" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\mac_cyrillic.py")
+2017-05-16T22:19:53: Parsing "encodings.mac_farsi" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\mac_farsi.py")
+2017-05-16T22:19:53: Parsing "encodings.mac_greek" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\mac_greek.py")
+2017-05-16T22:19:53: Parsing "encodings.mac_iceland" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\mac_iceland.py")
+2017-05-16T22:19:53: Parsing "encodings.mac_latin2" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\mac_latin2.py")
+2017-05-16T22:19:53: Parsing "encodings.mac_roman" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\mac_roman.py")
+2017-05-16T22:19:53: Parsing "encodings.mac_romanian" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\mac_romanian.py")
+2017-05-16T22:19:53: Parsing "encodings.mac_turkish" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\mac_turkish.py")
+2017-05-16T22:19:53: Parsing "encodings.mbcs" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\mbcs.py")
+2017-05-16T22:19:53: Parsing "encodings.oem" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\oem.py")
+2017-05-16T22:19:53: Parsing "encodings.palmos" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\palmos.py")
+2017-05-16T22:19:53: Parsing "encodings.ptcp154" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\ptcp154.py")
+2017-05-16T22:19:53: Parsing "encodings.punycode" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\punycode.py")
+2017-05-16T22:19:53: Parsing "encodings.quopri_codec" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\quopri_codec.py")
+2017-05-16T22:19:53: Parsing "encodings.raw_unicode_escape" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\raw_unicode_escape.py")
+2017-05-16T22:19:53: Parsing "encodings.rot_13" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\rot_13.py")
+2017-05-16T22:19:53: Parsing "encodings.shift_jis" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\shift_jis.py")
+2017-05-16T22:19:53: Parsing "encodings.shift_jisx0213" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\shift_jisx0213.py")
+2017-05-16T22:19:53: Parsing "encodings.shift_jis_2004" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\shift_jis_2004.py")
+2017-05-16T22:19:53: Parsing "encodings.tis_620" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\tis_620.py")
+2017-05-16T22:19:53: Parsing "encodings.undefined" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\undefined.py")
+2017-05-16T22:19:53: Parsing "encodings.unicode_escape" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\unicode_escape.py")
+2017-05-16T22:19:53: Parsing "encodings.unicode_internal" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\unicode_internal.py")
+2017-05-16T22:19:53: Parsing "encodings.utf_16" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\utf_16.py")
+2017-05-16T22:19:53: Parsing "encodings.utf_16_be" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\utf_16_be.py")
+2017-05-16T22:19:53: Parsing "encodings.utf_16_le" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\utf_16_le.py")
+2017-05-16T22:19:53: Parsing "encodings.utf_32" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\utf_32.py")
+2017-05-16T22:19:53: Parsing "encodings.utf_32_be" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\utf_32_be.py")
+2017-05-16T22:19:53: Parsing "encodings.utf_32_le" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\utf_32_le.py")
+2017-05-16T22:19:53: Parsing "encodings.utf_7" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\utf_7.py")
+2017-05-16T22:19:53: Parsing "encodings.utf_8" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\utf_8.py")
+2017-05-16T22:19:53: Parsing "encodings.utf_8_sig" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\utf_8_sig.py")
+2017-05-16T22:19:53: Parsing "encodings.uu_codec" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\uu_codec.py")
+2017-05-16T22:19:53: Parsing "encodings.zlib_codec" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\zlib_codec.py")
+2017-05-16T22:19:53: Parsing "encodings" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\encodings\__init__.py")
+2017-05-16T22:19:53: Parsing "importlib.abc" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\importlib\abc.py")
+2017-05-16T22:19:53: Parsing "importlib.machinery" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\importlib\machinery.py")
+2017-05-16T22:19:53: Parsing "importlib.util" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\importlib\util.py")
+2017-05-16T22:19:53: [WARNING] File "C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\importlib\util.py" contained parse errors
+2017-05-16T22:19:53: (25,27) - (25,67) invalid syntax
+(26,26) - (26,64) invalid syntax
+(26,64) - (26,65) unexpected token ')'
+(26,65) - (27,5) unexpected token '<newline>'
+(26,65) - (27,5) unexpected token '<dedent>'
+(238,35) - (238,73) invalid syntax
+(239,35) - (239,78) invalid syntax
+(240,35) - (240,41) invalid syntax
+(240,41) - (240,42) unexpected token ')'
+(241,74) - (241,74) unexpected token '<newline>'
+(242,29) - (242,29) unexpected token '<NL>'
+(242,29) - (243,9) unexpected token '<NL>'
+(242,29) - (243,9) unexpected token '<dedent>'
+(289,1) - (289,1) unexpected end of file
+(289,1) - (289,1) unexpected end of file
+2017-05-16T22:19:53: Parsing "importlib._bootstrap" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\importlib\_bootstrap.py")
+2017-05-16T22:19:53: [WARNING] File "C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\importlib\_bootstrap.py" contained parse errors
+2017-05-16T22:19:53: (1032,28) - (1032,29) unexpected token 'f'
+(1032,28) - (1032,29) unexpected token 'f'
+(1032,29) - (1033,53) can't assign to literal
+(1033,55) - (1033,56) unexpected token ')'
+(1033,56) - (1034,9) unexpected token '<newline>'
+(1033,56) - (1034,9) unexpected token '<dedent>'
+(1147,1) - (1147,1) unexpected end of file
+2017-05-16T22:19:53: Parsing "importlib._bootstrap_external" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\importlib\_bootstrap_external.py")
+2017-05-16T22:19:53: Parsing "importlib" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\importlib\__init__.py")
+2017-05-16T22:19:53: Parsing complete
+2017-05-16T22:19:53: Analyzing "abc"
+2017-05-16T22:19:53: Analyzing "base64"
+2017-05-16T22:19:53: Analyzing "bisect"
+2017-05-16T22:19:53: Analyzing "codecs"
+2017-05-16T22:19:53: Analyzing "copy"
+2017-05-16T22:19:53: Analyzing "copyreg"
+2017-05-16T22:19:53: Analyzing "enum"
+2017-05-16T22:19:53: Analyzing "fnmatch"
+2017-05-16T22:19:53: Analyzing "functools"
+2017-05-16T22:19:53: Analyzing "genericpath"
+2017-05-16T22:19:53: Analyzing "hashlib"
+2017-05-16T22:19:53: Analyzing "heapq"
+2017-05-16T22:19:53: Analyzing "hmac"
+2017-05-16T22:19:53: Analyzing "imp"
+2017-05-16T22:19:53: Analyzing "io"
+2017-05-16T22:19:53: Analyzing "keyword"
+2017-05-16T22:19:53: Analyzing "linecache"
+2017-05-16T22:19:53: Analyzing "locale"
+2017-05-16T22:19:53: Analyzing "ntpath"
+2017-05-16T22:19:53: Analyzing "operator"
+2017-05-16T22:19:53: Analyzing "os"
+2017-05-16T22:19:53: Analyzing "posixpath"
+2017-05-16T22:19:53: Analyzing "random"
+2017-05-16T22:19:53: Analyzing "re"
+2017-05-16T22:19:53: Analyzing "reprlib"
+2017-05-16T22:19:53: Analyzing "rlcompleter"
+2017-05-16T22:19:53: Analyzing "shutil"
+2017-05-16T22:19:53: Analyzing "site"
+2017-05-16T22:19:53: Analyzing "sre_compile"
+2017-05-16T22:19:53: Analyzing "sre_constants"
+2017-05-16T22:19:53: Analyzing "sre_parse"
+2017-05-16T22:19:53: Analyzing "stat"
+2017-05-16T22:19:53: Analyzing "struct"
+2017-05-16T22:19:53: Analyzing "tarfile"
+2017-05-16T22:19:53: Analyzing "tempfile"
+2017-05-16T22:19:53: Analyzing "token"
+2017-05-16T22:19:53: Analyzing "tokenize"
+2017-05-16T22:19:53: Analyzing "types"
+2017-05-16T22:19:53: Analyzing "warnings"
+2017-05-16T22:19:53: Analyzing "weakref"
+2017-05-16T22:19:53: Analyzing "_bootlocale"
+2017-05-16T22:19:53: Analyzing "_collections_abc"
+2017-05-16T22:19:53: Analyzing "_dummy_thread"
+2017-05-16T22:19:53: Analyzing "_weakrefset"
+2017-05-16T22:19:53: Analyzing "__future__"
+2017-05-16T22:19:53: Analyzing "collections.abc"
+2017-05-16T22:19:53: Analyzing "collections"
+2017-05-16T22:19:53: Analyzing "distutils"
+2017-05-16T22:19:53: Analyzing "encodings.aliases"
+2017-05-16T22:19:53: Analyzing "encodings.ascii"
+2017-05-16T22:19:53: Analyzing "encodings.base64_codec"
+2017-05-16T22:19:53: Analyzing "encodings.big5"
+2017-05-16T22:19:53: Analyzing "encodings.big5hkscs"
+2017-05-16T22:19:53: Analyzing "encodings.bz2_codec"
+2017-05-16T22:19:53: Analyzing "encodings.charmap"
+2017-05-16T22:19:53: Analyzing "encodings.cp037"
+2017-05-16T22:19:53: Analyzing "encodings.cp1006"
+2017-05-16T22:19:53: Analyzing "encodings.cp1026"
+2017-05-16T22:19:53: Analyzing "encodings.cp1125"
+2017-05-16T22:19:53: Analyzing "encodings.cp1140"
+2017-05-16T22:19:53: Analyzing "encodings.cp1250"
+2017-05-16T22:19:53: Analyzing "encodings.cp1251"
+2017-05-16T22:19:53: Analyzing "encodings.cp1252"
+2017-05-16T22:19:53: Analyzing "encodings.cp1253"
+2017-05-16T22:19:53: Analyzing "encodings.cp1254"
+2017-05-16T22:19:53: Analyzing "encodings.cp1255"
+2017-05-16T22:19:53: Analyzing "encodings.cp1256"
+2017-05-16T22:19:53: Analyzing "encodings.cp1257"
+2017-05-16T22:19:53: Analyzing "encodings.cp1258"
+2017-05-16T22:19:53: Analyzing "encodings.cp273"
+2017-05-16T22:19:53: Analyzing "encodings.cp424"
+2017-05-16T22:19:53: Analyzing "encodings.cp437"
+2017-05-16T22:19:53: Analyzing "encodings.cp500"
+2017-05-16T22:19:53: Analyzing "encodings.cp65001"
+2017-05-16T22:19:53: Analyzing "encodings.cp720"
+2017-05-16T22:19:53: Analyzing "encodings.cp737"
+2017-05-16T22:19:53: Analyzing "encodings.cp775"
+2017-05-16T22:19:53: Analyzing "encodings.cp850"
+2017-05-16T22:19:53: Analyzing "encodings.cp852"
+2017-05-16T22:19:53: Analyzing "encodings.cp855"
+2017-05-16T22:19:53: Analyzing "encodings.cp856"
+2017-05-16T22:19:53: Analyzing "encodings.cp857"
+2017-05-16T22:19:53: Analyzing "encodings.cp858"
+2017-05-16T22:19:53: Analyzing "encodings.cp860"
+2017-05-16T22:19:53: Analyzing "encodings.cp861"
+2017-05-16T22:19:53: Analyzing "encodings.cp862"
+2017-05-16T22:19:53: Analyzing "encodings.cp863"
+2017-05-16T22:19:53: Analyzing "encodings.cp864"
+2017-05-16T22:19:53: Analyzing "encodings.cp865"
+2017-05-16T22:19:53: Analyzing "encodings.cp866"
+2017-05-16T22:19:53: Analyzing "encodings.cp869"
+2017-05-16T22:19:53: Analyzing "encodings.cp874"
+2017-05-16T22:19:53: Analyzing "encodings.cp875"
+2017-05-16T22:19:53: Analyzing "encodings.cp932"
+2017-05-16T22:19:53: Analyzing "encodings.cp949"
+2017-05-16T22:19:53: Analyzing "encodings.cp950"
+2017-05-16T22:19:53: Analyzing "encodings.euc_jisx0213"
+2017-05-16T22:19:53: Analyzing "encodings.euc_jis_2004"
+2017-05-16T22:19:53: Analyzing "encodings.euc_jp"
+2017-05-16T22:19:53: Analyzing "encodings.euc_kr"
+2017-05-16T22:19:53: Analyzing "encodings.gb18030"
+2017-05-16T22:19:53: Analyzing "encodings.gb2312"
+2017-05-16T22:19:53: Analyzing "encodings.gbk"
+2017-05-16T22:19:53: Analyzing "encodings.hex_codec"
+2017-05-16T22:19:53: Analyzing "encodings.hp_roman8"
+2017-05-16T22:19:53: Analyzing "encodings.hz"
+2017-05-16T22:19:53: Analyzing "encodings.idna"
+2017-05-16T22:19:53: Analyzing "encodings.iso2022_jp"
+2017-05-16T22:19:53: Analyzing "encodings.iso2022_jp_1"
+2017-05-16T22:19:53: Analyzing "encodings.iso2022_jp_2"
+2017-05-16T22:19:53: Analyzing "encodings.iso2022_jp_2004"
+2017-05-16T22:19:53: Analyzing "encodings.iso2022_jp_3"
+2017-05-16T22:19:53: Analyzing "encodings.iso2022_jp_ext"
+2017-05-16T22:19:53: Analyzing "encodings.iso2022_kr"
+2017-05-16T22:19:53: Analyzing "encodings.iso8859_1"
+2017-05-16T22:19:53: Analyzing "encodings.iso8859_10"
+2017-05-16T22:19:53: Analyzing "encodings.iso8859_11"
+2017-05-16T22:19:53: Analyzing "encodings.iso8859_13"
+2017-05-16T22:19:53: Analyzing "encodings.iso8859_14"
+2017-05-16T22:19:53: Analyzing "encodings.iso8859_15"
+2017-05-16T22:19:53: Analyzing "encodings.iso8859_16"
+2017-05-16T22:19:53: Analyzing "encodings.iso8859_2"
+2017-05-16T22:19:53: Analyzing "encodings.iso8859_3"
+2017-05-16T22:19:53: Analyzing "encodings.iso8859_4"
+2017-05-16T22:19:53: Analyzing "encodings.iso8859_5"
+2017-05-16T22:19:53: Analyzing "encodings.iso8859_6"
+2017-05-16T22:19:53: Analyzing "encodings.iso8859_7"
+2017-05-16T22:19:53: Analyzing "encodings.iso8859_8"
+2017-05-16T22:19:53: Analyzing "encodings.iso8859_9"
+2017-05-16T22:19:53: Analyzing "encodings.johab"
+2017-05-16T22:19:53: Analyzing "encodings.koi8_r"
+2017-05-16T22:19:53: Analyzing "encodings.koi8_t"
+2017-05-16T22:19:53: Analyzing "encodings.koi8_u"
+2017-05-16T22:19:53: Analyzing "encodings.kz1048"
+2017-05-16T22:19:53: Analyzing "encodings.latin_1"
+2017-05-16T22:19:53: Analyzing "encodings.mac_arabic"
+2017-05-16T22:19:53: Analyzing "encodings.mac_centeuro"
+2017-05-16T22:19:53: Analyzing "encodings.mac_croatian"
+2017-05-16T22:19:53: Analyzing "encodings.mac_cyrillic"
+2017-05-16T22:19:53: Analyzing "encodings.mac_farsi"
+2017-05-16T22:19:53: Analyzing "encodings.mac_greek"
+2017-05-16T22:19:53: Analyzing "encodings.mac_iceland"
+2017-05-16T22:19:53: Analyzing "encodings.mac_latin2"
+2017-05-16T22:19:53: Analyzing "encodings.mac_roman"
+2017-05-16T22:19:53: Analyzing "encodings.mac_romanian"
+2017-05-16T22:19:53: Analyzing "encodings.mac_turkish"
+2017-05-16T22:19:53: Analyzing "encodings.mbcs"
+2017-05-16T22:19:53: Analyzing "encodings.oem"
+2017-05-16T22:19:53: Analyzing "encodings.palmos"
+2017-05-16T22:19:53: Analyzing "encodings.ptcp154"
+2017-05-16T22:19:53: Analyzing "encodings.punycode"
+2017-05-16T22:19:53: Analyzing "encodings.quopri_codec"
+2017-05-16T22:19:53: Analyzing "encodings.raw_unicode_escape"
+2017-05-16T22:19:53: Analyzing "encodings.rot_13"
+2017-05-16T22:19:53: Analyzing "encodings.shift_jis"
+2017-05-16T22:19:53: Analyzing "encodings.shift_jisx0213"
+2017-05-16T22:19:53: Analyzing "encodings.shift_jis_2004"
+2017-05-16T22:19:53: Analyzing "encodings.tis_620"
+2017-05-16T22:19:53: Analyzing "encodings.undefined"
+2017-05-16T22:19:53: Analyzing "encodings.unicode_escape"
+2017-05-16T22:19:53: Analyzing "encodings.unicode_internal"
+2017-05-16T22:19:53: Analyzing "encodings.utf_16"
+2017-05-16T22:19:53: Analyzing "encodings.utf_16_be"
+2017-05-16T22:19:53: Analyzing "encodings.utf_16_le"
+2017-05-16T22:19:53: Analyzing "encodings.utf_32"
+2017-05-16T22:19:53: Analyzing "encodings.utf_32_be"
+2017-05-16T22:19:53: Analyzing "encodings.utf_32_le"
+2017-05-16T22:19:53: Analyzing "encodings.utf_7"
+2017-05-16T22:19:53: Analyzing "encodings.utf_8"
+2017-05-16T22:19:53: Analyzing "encodings.utf_8_sig"
+2017-05-16T22:19:53: Analyzing "encodings.uu_codec"
+2017-05-16T22:19:53: Analyzing "encodings.zlib_codec"
+2017-05-16T22:19:53: Analyzing "encodings"
+2017-05-16T22:19:53: Analyzing "importlib.abc"
+2017-05-16T22:19:53: Analyzing "importlib.machinery"
+2017-05-16T22:19:53: Analyzing "importlib.util"
+2017-05-16T22:19:53: Analyzing "importlib._bootstrap"
+2017-05-16T22:19:53: Analyzing "importlib._bootstrap_external"
+2017-05-16T22:19:53: Analyzing "importlib"
+2017-05-16T22:19:53: Starting analysis of 179 modules
+2017-05-16T22:19:56: Analysis complete
+2017-05-16T22:19:56: Saving group "C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib"
+2017-05-16T22:19:57: End of group "C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib"
+2017-05-16T22:19:57: Start group "C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages" with 4 files
+2017-05-16T22:19:57: Parsing "appdirs" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\appdirs.py")
+2017-05-16T22:19:57: Parsing "easy_install" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\easy_install.py")
+2017-05-16T22:19:57: Parsing "pyparsing" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pyparsing.py")
+2017-05-16T22:19:57: Parsing "six" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\six.py")
+2017-05-16T22:19:57: Parsing complete
+2017-05-16T22:19:57: Analyzing "appdirs"
+2017-05-16T22:19:57: Analyzing "easy_install"
+2017-05-16T22:19:57: Analyzing "pyparsing"
+2017-05-16T22:19:57: Analyzing "six"
+2017-05-16T22:19:57: Starting analysis of 4 modules
+2017-05-16T22:19:59: Analysis complete
+2017-05-16T22:19:59: Saving group "C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages"
+2017-05-16T22:19:59: End of group "C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages"
+2017-05-16T22:19:59: Start group "C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\packaging" with 9 files
+2017-05-16T22:19:59: Parsing "packaging.markers" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\packaging\markers.py")
+2017-05-16T22:19:59: Parsing "packaging.requirements" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\packaging\requirements.py")
+2017-05-16T22:19:59: Parsing "packaging.specifiers" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\packaging\specifiers.py")
+2017-05-16T22:19:59: Parsing "packaging.utils" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\packaging\utils.py")
+2017-05-16T22:19:59: Parsing "packaging.version" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\packaging\version.py")
+2017-05-16T22:19:59: Parsing "packaging._compat" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\packaging\_compat.py")
+2017-05-16T22:19:59: Parsing "packaging._structures" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\packaging\_structures.py")
+2017-05-16T22:19:59: Parsing "packaging.__about__" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\packaging\__about__.py")
+2017-05-16T22:19:59: Parsing "packaging" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\packaging\__init__.py")
+2017-05-16T22:19:59: Parsing complete
+2017-05-16T22:19:59: Analyzing "packaging.markers"
+2017-05-16T22:19:59: Analyzing "packaging.requirements"
+2017-05-16T22:19:59: Analyzing "packaging.specifiers"
+2017-05-16T22:19:59: Analyzing "packaging.utils"
+2017-05-16T22:19:59: Analyzing "packaging.version"
+2017-05-16T22:19:59: Analyzing "packaging._compat"
+2017-05-16T22:19:59: Analyzing "packaging._structures"
+2017-05-16T22:19:59: Analyzing "packaging.__about__"
+2017-05-16T22:19:59: Analyzing "packaging"
+2017-05-16T22:19:59: Starting analysis of 9 modules
+2017-05-16T22:20:00: Analysis complete
+2017-05-16T22:20:00: Saving group "C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\packaging"
+2017-05-16T22:20:00: End of group "C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\packaging"
+2017-05-16T22:20:00: Start group "C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip" with 241 files
+2017-05-16T22:20:00: Parsing "pip.basecommand" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\basecommand.py")
+2017-05-16T22:20:00: Parsing "pip.baseparser" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\baseparser.py")
+2017-05-16T22:20:00: Parsing "pip.cmdoptions" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\cmdoptions.py")
+2017-05-16T22:20:00: Parsing "pip.download" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\download.py")
+2017-05-16T22:20:00: Parsing "pip.exceptions" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\exceptions.py")
+2017-05-16T22:20:00: Parsing "pip.index" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\index.py")
+2017-05-16T22:20:00: Parsing "pip.locations" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\locations.py")
+2017-05-16T22:20:00: Parsing "pip.pep425tags" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\pep425tags.py")
+2017-05-16T22:20:00: Parsing "pip.status_codes" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\status_codes.py")
+2017-05-16T22:20:00: Parsing "pip.wheel" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\wheel.py")
+2017-05-16T22:20:00: Parsing "pip" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\__init__.py")
+2017-05-16T22:20:00: Parsing "pip.__main__" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\__main__.py")
+2017-05-16T22:20:00: Parsing "pip.commands.check" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\commands\check.py")
+2017-05-16T22:20:00: Parsing "pip.commands.completion" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\commands\completion.py")
+2017-05-16T22:20:00: Parsing "pip.commands.download" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\commands\download.py")
+2017-05-16T22:20:00: Parsing "pip.commands.freeze" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\commands\freeze.py")
+2017-05-16T22:20:00: Parsing "pip.commands.hash" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\commands\hash.py")
+2017-05-16T22:20:00: Parsing "pip.commands.help" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\commands\help.py")
+2017-05-16T22:20:00: Parsing "pip.commands.install" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\commands\install.py")
+2017-05-16T22:20:00: Parsing "pip.commands.list" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\commands\list.py")
+2017-05-16T22:20:00: Parsing "pip.commands.search" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\commands\search.py")
+2017-05-16T22:20:00: Parsing "pip.commands.show" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\commands\show.py")
+2017-05-16T22:20:00: Parsing "pip.commands.uninstall" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\commands\uninstall.py")
+2017-05-16T22:20:00: Parsing "pip.commands.wheel" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\commands\wheel.py")
+2017-05-16T22:20:00: Parsing "pip.commands" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\commands\__init__.py")
+2017-05-16T22:20:00: Parsing "pip.compat.dictconfig" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\compat\dictconfig.py")
+2017-05-16T22:20:00: Parsing "pip.compat" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\compat\__init__.py")
+2017-05-16T22:20:00: Parsing "pip.models.index" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\models\index.py")
+2017-05-16T22:20:00: Parsing "pip.models" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\models\__init__.py")
+2017-05-16T22:20:00: Parsing "pip.operations.check" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\operations\check.py")
+2017-05-16T22:20:00: Parsing "pip.operations.freeze" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\operations\freeze.py")
+2017-05-16T22:20:00: Parsing "pip.operations" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\operations\__init__.py")
+2017-05-16T22:20:00: Parsing "pip.req.req_file" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\req\req_file.py")
+2017-05-16T22:20:00: Parsing "pip.req.req_install" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\req\req_install.py")
+2017-05-16T22:20:00: Parsing "pip.req.req_set" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\req\req_set.py")
+2017-05-16T22:20:00: Parsing "pip.req.req_uninstall" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\req\req_uninstall.py")
+2017-05-16T22:20:00: Parsing "pip.req" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\req\__init__.py")
+2017-05-16T22:20:00: Parsing "pip.utils.appdirs" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\utils\appdirs.py")
+2017-05-16T22:20:00: Parsing "pip.utils.build" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\utils\build.py")
+2017-05-16T22:20:00: Parsing "pip.utils.deprecation" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\utils\deprecation.py")
+2017-05-16T22:20:00: Parsing "pip.utils.encoding" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\utils\encoding.py")
+2017-05-16T22:20:00: Parsing "pip.utils.filesystem" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\utils\filesystem.py")
+2017-05-16T22:20:00: Parsing "pip.utils.glibc" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\utils\glibc.py")
+2017-05-16T22:20:00: Parsing "pip.utils.hashes" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\utils\hashes.py")
+2017-05-16T22:20:00: Parsing "pip.utils.logging" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\utils\logging.py")
+2017-05-16T22:20:00: Parsing "pip.utils.outdated" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\utils\outdated.py")
+2017-05-16T22:20:00: Parsing "pip.utils.packaging" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\utils\packaging.py")
+2017-05-16T22:20:00: Parsing "pip.utils.setuptools_build" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\utils\setuptools_build.py")
+2017-05-16T22:20:00: Parsing "pip.utils.ui" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\utils\ui.py")
+2017-05-16T22:20:00: Parsing "pip.utils" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\utils\__init__.py")
+2017-05-16T22:20:00: Parsing "pip.vcs.bazaar" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\vcs\bazaar.py")
+2017-05-16T22:20:00: Parsing "pip.vcs.git" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\vcs\git.py")
+2017-05-16T22:20:00: Parsing "pip.vcs.mercurial" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\vcs\mercurial.py")
+2017-05-16T22:20:00: Parsing "pip.vcs.subversion" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\vcs\subversion.py")
+2017-05-16T22:20:00: Parsing "pip.vcs" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\vcs\__init__.py")
+2017-05-16T22:20:00: Parsing "pip._vendor.appdirs" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\appdirs.py")
+2017-05-16T22:20:00: Parsing "pip._vendor.distro" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\distro.py")
+2017-05-16T22:20:00: Parsing "pip._vendor.ipaddress" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\ipaddress.py")
+2017-05-16T22:20:00: Parsing "pip._vendor.ordereddict" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\ordereddict.py")
+2017-05-16T22:20:00: Parsing "pip._vendor.pyparsing" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\pyparsing.py")
+2017-05-16T22:20:00: Parsing "pip._vendor.retrying" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\retrying.py")
+2017-05-16T22:20:00: Parsing "pip._vendor.six" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\six.py")
+2017-05-16T22:20:00: Parsing "pip._vendor" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\__init__.py")
+2017-05-16T22:20:00: Parsing "pip._vendor.cachecontrol.adapter" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\cachecontrol\adapter.py")
+2017-05-16T22:20:00: Parsing "pip._vendor.cachecontrol.cache" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\cachecontrol\cache.py")
+2017-05-16T22:20:00: Parsing "pip._vendor.cachecontrol.compat" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\cachecontrol\compat.py")
+2017-05-16T22:20:00: Parsing "pip._vendor.cachecontrol.controller" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\cachecontrol\controller.py")
+2017-05-16T22:20:00: Parsing "pip._vendor.cachecontrol.filewrapper" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\cachecontrol\filewrapper.py")
+2017-05-16T22:20:00: Parsing "pip._vendor.cachecontrol.heuristics" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\cachecontrol\heuristics.py")
+2017-05-16T22:20:00: Parsing "pip._vendor.cachecontrol.serialize" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\cachecontrol\serialize.py")
+2017-05-16T22:20:00: Parsing "pip._vendor.cachecontrol.wrapper" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\cachecontrol\wrapper.py")
+2017-05-16T22:20:00: Parsing "pip._vendor.cachecontrol._cmd" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\cachecontrol\_cmd.py")
+2017-05-16T22:20:00: Parsing "pip._vendor.cachecontrol" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\cachecontrol\__init__.py")
+2017-05-16T22:20:00: Parsing "pip._vendor.cachecontrol.caches.file_cache" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\cachecontrol\caches\file_cache.py")
+2017-05-16T22:20:00: Parsing "pip._vendor.cachecontrol.caches.redis_cache" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\cachecontrol\caches\redis_cache.py")
+2017-05-16T22:20:00: Parsing "pip._vendor.cachecontrol.caches" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\cachecontrol\caches\__init__.py")
+2017-05-16T22:20:00: Parsing "pip._vendor.colorama.ansi" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\colorama\ansi.py")
+2017-05-16T22:20:00: Parsing "pip._vendor.colorama.ansitowin32" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\colorama\ansitowin32.py")
+2017-05-16T22:20:00: Parsing "pip._vendor.colorama.initialise" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\colorama\initialise.py")
+2017-05-16T22:20:00: Parsing "pip._vendor.colorama.win32" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\colorama\win32.py")
+2017-05-16T22:20:00: Parsing "pip._vendor.colorama.winterm" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\colorama\winterm.py")
+2017-05-16T22:20:00: Parsing "pip._vendor.colorama" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\colorama\__init__.py")
+2017-05-16T22:20:00: Parsing "pip._vendor.distlib.compat" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\distlib\compat.py")
+2017-05-16T22:20:00: Parsing "pip._vendor.distlib.database" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\distlib\database.py")
+2017-05-16T22:20:00: Parsing "pip._vendor.distlib.index" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\distlib\index.py")
+2017-05-16T22:20:00: Parsing "pip._vendor.distlib.locators" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\distlib\locators.py")
+2017-05-16T22:20:00: Parsing "pip._vendor.distlib.manifest" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\distlib\manifest.py")
+2017-05-16T22:20:00: Parsing "pip._vendor.distlib.markers" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\distlib\markers.py")
+2017-05-16T22:20:00: Parsing "pip._vendor.distlib.metadata" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\distlib\metadata.py")
+2017-05-16T22:20:00: Parsing "pip._vendor.distlib.resources" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\distlib\resources.py")
+2017-05-16T22:20:00: Parsing "pip._vendor.distlib.scripts" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\distlib\scripts.py")
+2017-05-16T22:20:00: Parsing "pip._vendor.distlib.util" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\distlib\util.py")
+2017-05-16T22:20:00: Parsing "pip._vendor.distlib.version" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\distlib\version.py")
+2017-05-16T22:20:00: Parsing "pip._vendor.distlib.wheel" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\distlib\wheel.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.distlib" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\distlib\__init__.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.distlib._backport.misc" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\distlib\_backport\misc.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.distlib._backport.shutil" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\distlib\_backport\shutil.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.distlib._backport.sysconfig" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\distlib\_backport\sysconfig.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.distlib._backport.tarfile" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\distlib\_backport\tarfile.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.distlib._backport" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\distlib\_backport\__init__.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.html5lib.constants" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\html5lib\constants.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.html5lib.html5parser" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\html5lib\html5parser.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.html5lib.serializer" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\html5lib\serializer.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.html5lib._ihatexml" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\html5lib\_ihatexml.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.html5lib._inputstream" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\html5lib\_inputstream.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.html5lib._tokenizer" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\html5lib\_tokenizer.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.html5lib._utils" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\html5lib\_utils.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.html5lib" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\html5lib\__init__.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.html5lib.filters.alphabeticalattributes" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\html5lib\filters\alphabeticalattributes.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.html5lib.filters.base" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\html5lib\filters\base.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.html5lib.filters.inject_meta_charset" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\html5lib\filters\inject_meta_charset.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.html5lib.filters.lint" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\html5lib\filters\lint.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.html5lib.filters.optionaltags" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\html5lib\filters\optionaltags.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.html5lib.filters.sanitizer" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\html5lib\filters\sanitizer.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.html5lib.filters.whitespace" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\html5lib\filters\whitespace.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.html5lib.filters" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\html5lib\filters\__init__.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.html5lib.treeadapters.genshi" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\html5lib\treeadapters\genshi.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.html5lib.treeadapters.sax" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\html5lib\treeadapters\sax.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.html5lib.treeadapters" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\html5lib\treeadapters\__init__.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.html5lib.treebuilders.base" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\html5lib\treebuilders\base.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.html5lib.treebuilders.dom" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\html5lib\treebuilders\dom.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.html5lib.treebuilders.etree" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\html5lib\treebuilders\etree.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.html5lib.treebuilders.etree_lxml" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\html5lib\treebuilders\etree_lxml.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.html5lib.treebuilders" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\html5lib\treebuilders\__init__.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.html5lib.treewalkers.base" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\html5lib\treewalkers\base.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.html5lib.treewalkers.dom" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\html5lib\treewalkers\dom.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.html5lib.treewalkers.etree" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\html5lib\treewalkers\etree.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.html5lib.treewalkers.etree_lxml" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\html5lib\treewalkers\etree_lxml.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.html5lib.treewalkers.genshi" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\html5lib\treewalkers\genshi.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.html5lib.treewalkers" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\html5lib\treewalkers\__init__.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.html5lib._trie.datrie" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\html5lib\_trie\datrie.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.html5lib._trie.py" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\html5lib\_trie\py.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.html5lib._trie._base" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\html5lib\_trie\_base.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.html5lib._trie" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\html5lib\_trie\__init__.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.lockfile.linklockfile" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\lockfile\linklockfile.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.lockfile.mkdirlockfile" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\lockfile\mkdirlockfile.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.lockfile.pidlockfile" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\lockfile\pidlockfile.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.lockfile.sqlitelockfile" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\lockfile\sqlitelockfile.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.lockfile.symlinklockfile" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\lockfile\symlinklockfile.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.lockfile" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\lockfile\__init__.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.packaging.markers" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\packaging\markers.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.packaging.requirements" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\packaging\requirements.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.packaging.specifiers" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\packaging\specifiers.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.packaging.utils" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\packaging\utils.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.packaging.version" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\packaging\version.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.packaging._compat" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\packaging\_compat.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.packaging._structures" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\packaging\_structures.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.packaging.__about__" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\packaging\__about__.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.packaging" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\packaging\__init__.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.pkg_resources" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\pkg_resources\__init__.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.progress.bar" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\progress\bar.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.progress.counter" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\progress\counter.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.progress.helpers" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\progress\helpers.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.progress.spinner" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\progress\spinner.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.progress" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\progress\__init__.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests.adapters" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\adapters.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests.api" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\api.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests.auth" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\auth.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests.certs" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\certs.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests.compat" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\compat.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests.cookies" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\cookies.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests.exceptions" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\exceptions.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests.hooks" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\hooks.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests.models" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\models.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests.sessions" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\sessions.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests.status_codes" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\status_codes.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests.structures" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\structures.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests.utils" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\utils.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\__init__.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests.packages" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\packages\__init__.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests.packages.chardet.big5freq" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\packages\chardet\big5freq.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests.packages.chardet.big5prober" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\packages\chardet\big5prober.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests.packages.chardet.chardetect" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\packages\chardet\chardetect.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests.packages.chardet.chardistribution" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\packages\chardet\chardistribution.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests.packages.chardet.charsetgroupprober" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\packages\chardet\charsetgroupprober.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests.packages.chardet.charsetprober" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\packages\chardet\charsetprober.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests.packages.chardet.codingstatemachine" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\packages\chardet\codingstatemachine.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests.packages.chardet.compat" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\packages\chardet\compat.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests.packages.chardet.constants" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\packages\chardet\constants.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests.packages.chardet.cp949prober" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\packages\chardet\cp949prober.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests.packages.chardet.escprober" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\packages\chardet\escprober.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests.packages.chardet.escsm" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\packages\chardet\escsm.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests.packages.chardet.eucjpprober" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\packages\chardet\eucjpprober.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests.packages.chardet.euckrfreq" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\packages\chardet\euckrfreq.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests.packages.chardet.euckrprober" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\packages\chardet\euckrprober.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests.packages.chardet.euctwfreq" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\packages\chardet\euctwfreq.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests.packages.chardet.euctwprober" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\packages\chardet\euctwprober.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests.packages.chardet.gb2312freq" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\packages\chardet\gb2312freq.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests.packages.chardet.gb2312prober" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\packages\chardet\gb2312prober.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests.packages.chardet.hebrewprober" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\packages\chardet\hebrewprober.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests.packages.chardet.jisfreq" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\packages\chardet\jisfreq.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests.packages.chardet.jpcntx" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\packages\chardet\jpcntx.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests.packages.chardet.langbulgarianmodel" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\packages\chardet\langbulgarianmodel.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests.packages.chardet.langcyrillicmodel" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\packages\chardet\langcyrillicmodel.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests.packages.chardet.langgreekmodel" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\packages\chardet\langgreekmodel.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests.packages.chardet.langhebrewmodel" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\packages\chardet\langhebrewmodel.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests.packages.chardet.langhungarianmodel" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\packages\chardet\langhungarianmodel.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests.packages.chardet.langthaimodel" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\packages\chardet\langthaimodel.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests.packages.chardet.latin1prober" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\packages\chardet\latin1prober.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests.packages.chardet.mbcharsetprober" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\packages\chardet\mbcharsetprober.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests.packages.chardet.mbcsgroupprober" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\packages\chardet\mbcsgroupprober.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests.packages.chardet.mbcssm" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\packages\chardet\mbcssm.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests.packages.chardet.sbcharsetprober" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\packages\chardet\sbcharsetprober.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests.packages.chardet.sbcsgroupprober" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\packages\chardet\sbcsgroupprober.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests.packages.chardet.sjisprober" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\packages\chardet\sjisprober.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests.packages.chardet.universaldetector" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\packages\chardet\universaldetector.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests.packages.chardet.utf8prober" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\packages\chardet\utf8prober.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests.packages.chardet" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\packages\chardet\__init__.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests.packages.urllib3.connection" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\packages\urllib3\connection.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests.packages.urllib3.connectionpool" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\packages\urllib3\connectionpool.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests.packages.urllib3.exceptions" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\packages\urllib3\exceptions.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests.packages.urllib3.fields" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\packages\urllib3\fields.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests.packages.urllib3.filepost" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\packages\urllib3\filepost.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests.packages.urllib3.poolmanager" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\packages\urllib3\poolmanager.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests.packages.urllib3.request" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\packages\urllib3\request.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests.packages.urllib3.response" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\packages\urllib3\response.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests.packages.urllib3._collections" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\packages\urllib3\_collections.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests.packages.urllib3" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\packages\urllib3\__init__.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests.packages.urllib3.contrib.appengine" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\packages\urllib3\contrib\appengine.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests.packages.urllib3.contrib.ntlmpool" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\packages\urllib3\contrib\ntlmpool.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests.packages.urllib3.contrib.pyopenssl" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\packages\urllib3\contrib\pyopenssl.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests.packages.urllib3.contrib.socks" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\packages\urllib3\contrib\socks.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests.packages.urllib3.contrib" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\packages\urllib3\contrib\__init__.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests.packages.urllib3.packages.ordered_dict" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\packages\urllib3\packages\ordered_dict.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests.packages.urllib3.packages.six" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\packages\urllib3\packages\six.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests.packages.urllib3.packages" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\packages\urllib3\packages\__init__.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests.packages.urllib3.packages.ssl_match_hostname._implementation" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\packages\urllib3\packages\ssl_match_hostname\_implementation.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests.packages.urllib3.packages.ssl_match_hostname" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\packages\urllib3\packages\ssl_match_hostname\__init__.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests.packages.urllib3.util.connection" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\packages\urllib3\util\connection.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests.packages.urllib3.util.request" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\packages\urllib3\util\request.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests.packages.urllib3.util.response" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\packages\urllib3\util\response.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests.packages.urllib3.util.retry" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\packages\urllib3\util\retry.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests.packages.urllib3.util.ssl_" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\packages\urllib3\util\ssl_.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests.packages.urllib3.util.timeout" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\packages\urllib3\util\timeout.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests.packages.urllib3.util.url" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\packages\urllib3\util\url.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.requests.packages.urllib3.util" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\requests\packages\urllib3\util\__init__.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.webencodings.labels" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\webencodings\labels.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.webencodings.mklabels" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\webencodings\mklabels.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.webencodings.tests" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\webencodings\tests.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.webencodings.x_user_defined" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\webencodings\x_user_defined.py")
+2017-05-16T22:20:01: Parsing "pip._vendor.webencodings" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip\_vendor\webencodings\__init__.py")
+2017-05-16T22:20:01: Parsing complete
+2017-05-16T22:20:01: Analyzing "pip.basecommand"
+2017-05-16T22:20:01: Analyzing "pip.baseparser"
+2017-05-16T22:20:01: Analyzing "pip.cmdoptions"
+2017-05-16T22:20:01: Analyzing "pip.download"
+2017-05-16T22:20:01: Analyzing "pip.exceptions"
+2017-05-16T22:20:01: Analyzing "pip.index"
+2017-05-16T22:20:01: Analyzing "pip.locations"
+2017-05-16T22:20:01: Analyzing "pip.pep425tags"
+2017-05-16T22:20:01: Analyzing "pip.status_codes"
+2017-05-16T22:20:01: Analyzing "pip.wheel"
+2017-05-16T22:20:01: Analyzing "pip"
+2017-05-16T22:20:01: Analyzing "pip.__main__"
+2017-05-16T22:20:01: Analyzing "pip.commands.check"
+2017-05-16T22:20:01: Analyzing "pip.commands.completion"
+2017-05-16T22:20:01: Analyzing "pip.commands.download"
+2017-05-16T22:20:01: Analyzing "pip.commands.freeze"
+2017-05-16T22:20:01: Analyzing "pip.commands.hash"
+2017-05-16T22:20:01: Analyzing "pip.commands.help"
+2017-05-16T22:20:01: Analyzing "pip.commands.install"
+2017-05-16T22:20:01: Analyzing "pip.commands.list"
+2017-05-16T22:20:01: Analyzing "pip.commands.search"
+2017-05-16T22:20:01: Analyzing "pip.commands.show"
+2017-05-16T22:20:01: Analyzing "pip.commands.uninstall"
+2017-05-16T22:20:01: Analyzing "pip.commands.wheel"
+2017-05-16T22:20:01: Analyzing "pip.commands"
+2017-05-16T22:20:01: Analyzing "pip.compat.dictconfig"
+2017-05-16T22:20:01: Analyzing "pip.compat"
+2017-05-16T22:20:01: Analyzing "pip.models.index"
+2017-05-16T22:20:01: Analyzing "pip.models"
+2017-05-16T22:20:01: Analyzing "pip.operations.check"
+2017-05-16T22:20:01: Analyzing "pip.operations.freeze"
+2017-05-16T22:20:01: Analyzing "pip.operations"
+2017-05-16T22:20:01: Analyzing "pip.req.req_file"
+2017-05-16T22:20:01: Analyzing "pip.req.req_install"
+2017-05-16T22:20:01: Analyzing "pip.req.req_set"
+2017-05-16T22:20:01: Analyzing "pip.req.req_uninstall"
+2017-05-16T22:20:01: Analyzing "pip.req"
+2017-05-16T22:20:01: Analyzing "pip.utils.appdirs"
+2017-05-16T22:20:01: Analyzing "pip.utils.build"
+2017-05-16T22:20:01: Analyzing "pip.utils.deprecation"
+2017-05-16T22:20:01: Analyzing "pip.utils.encoding"
+2017-05-16T22:20:01: Analyzing "pip.utils.filesystem"
+2017-05-16T22:20:01: Analyzing "pip.utils.glibc"
+2017-05-16T22:20:01: Analyzing "pip.utils.hashes"
+2017-05-16T22:20:01: Analyzing "pip.utils.logging"
+2017-05-16T22:20:01: Analyzing "pip.utils.outdated"
+2017-05-16T22:20:01: Analyzing "pip.utils.packaging"
+2017-05-16T22:20:01: Analyzing "pip.utils.setuptools_build"
+2017-05-16T22:20:01: Analyzing "pip.utils.ui"
+2017-05-16T22:20:01: Analyzing "pip.utils"
+2017-05-16T22:20:01: Analyzing "pip.vcs.bazaar"
+2017-05-16T22:20:01: Analyzing "pip.vcs.git"
+2017-05-16T22:20:01: Analyzing "pip.vcs.mercurial"
+2017-05-16T22:20:01: Analyzing "pip.vcs.subversion"
+2017-05-16T22:20:01: Analyzing "pip.vcs"
+2017-05-16T22:20:01: Analyzing "pip._vendor.appdirs"
+2017-05-16T22:20:01: Analyzing "pip._vendor.distro"
+2017-05-16T22:20:01: Analyzing "pip._vendor.ipaddress"
+2017-05-16T22:20:01: Analyzing "pip._vendor.ordereddict"
+2017-05-16T22:20:01: Analyzing "pip._vendor.pyparsing"
+2017-05-16T22:20:01: Analyzing "pip._vendor.retrying"
+2017-05-16T22:20:01: Analyzing "pip._vendor.six"
+2017-05-16T22:20:01: Analyzing "pip._vendor"
+2017-05-16T22:20:01: Analyzing "pip._vendor.cachecontrol.adapter"
+2017-05-16T22:20:01: Analyzing "pip._vendor.cachecontrol.cache"
+2017-05-16T22:20:01: Analyzing "pip._vendor.cachecontrol.compat"
+2017-05-16T22:20:01: Analyzing "pip._vendor.cachecontrol.controller"
+2017-05-16T22:20:01: Analyzing "pip._vendor.cachecontrol.filewrapper"
+2017-05-16T22:20:01: Analyzing "pip._vendor.cachecontrol.heuristics"
+2017-05-16T22:20:01: Analyzing "pip._vendor.cachecontrol.serialize"
+2017-05-16T22:20:01: Analyzing "pip._vendor.cachecontrol.wrapper"
+2017-05-16T22:20:01: Analyzing "pip._vendor.cachecontrol._cmd"
+2017-05-16T22:20:01: Analyzing "pip._vendor.cachecontrol"
+2017-05-16T22:20:01: Analyzing "pip._vendor.cachecontrol.caches.file_cache"
+2017-05-16T22:20:01: Analyzing "pip._vendor.cachecontrol.caches.redis_cache"
+2017-05-16T22:20:01: Analyzing "pip._vendor.cachecontrol.caches"
+2017-05-16T22:20:01: Analyzing "pip._vendor.colorama.ansi"
+2017-05-16T22:20:01: Analyzing "pip._vendor.colorama.ansitowin32"
+2017-05-16T22:20:01: Analyzing "pip._vendor.colorama.initialise"
+2017-05-16T22:20:01: Analyzing "pip._vendor.colorama.win32"
+2017-05-16T22:20:01: Analyzing "pip._vendor.colorama.winterm"
+2017-05-16T22:20:01: Analyzing "pip._vendor.colorama"
+2017-05-16T22:20:01: Analyzing "pip._vendor.distlib.compat"
+2017-05-16T22:20:01: Analyzing "pip._vendor.distlib.database"
+2017-05-16T22:20:01: Analyzing "pip._vendor.distlib.index"
+2017-05-16T22:20:01: Analyzing "pip._vendor.distlib.locators"
+2017-05-16T22:20:01: Analyzing "pip._vendor.distlib.manifest"
+2017-05-16T22:20:01: Analyzing "pip._vendor.distlib.markers"
+2017-05-16T22:20:01: Analyzing "pip._vendor.distlib.metadata"
+2017-05-16T22:20:01: Analyzing "pip._vendor.distlib.resources"
+2017-05-16T22:20:01: Analyzing "pip._vendor.distlib.scripts"
+2017-05-16T22:20:01: Analyzing "pip._vendor.distlib.util"
+2017-05-16T22:20:01: Analyzing "pip._vendor.distlib.version"
+2017-05-16T22:20:01: Analyzing "pip._vendor.distlib.wheel"
+2017-05-16T22:20:01: Analyzing "pip._vendor.distlib"
+2017-05-16T22:20:01: Analyzing "pip._vendor.distlib._backport.misc"
+2017-05-16T22:20:01: Analyzing "pip._vendor.distlib._backport.shutil"
+2017-05-16T22:20:01: Analyzing "pip._vendor.distlib._backport.sysconfig"
+2017-05-16T22:20:01: Analyzing "pip._vendor.distlib._backport.tarfile"
+2017-05-16T22:20:01: Analyzing "pip._vendor.distlib._backport"
+2017-05-16T22:20:01: Analyzing "pip._vendor.html5lib.constants"
+2017-05-16T22:20:01: Analyzing "pip._vendor.html5lib.html5parser"
+2017-05-16T22:20:01: Analyzing "pip._vendor.html5lib.serializer"
+2017-05-16T22:20:01: Analyzing "pip._vendor.html5lib._ihatexml"
+2017-05-16T22:20:01: Analyzing "pip._vendor.html5lib._inputstream"
+2017-05-16T22:20:01: Analyzing "pip._vendor.html5lib._tokenizer"
+2017-05-16T22:20:01: Analyzing "pip._vendor.html5lib._utils"
+2017-05-16T22:20:01: Analyzing "pip._vendor.html5lib"
+2017-05-16T22:20:01: Analyzing "pip._vendor.html5lib.filters.alphabeticalattributes"
+2017-05-16T22:20:01: Analyzing "pip._vendor.html5lib.filters.base"
+2017-05-16T22:20:01: Analyzing "pip._vendor.html5lib.filters.inject_meta_charset"
+2017-05-16T22:20:01: Analyzing "pip._vendor.html5lib.filters.lint"
+2017-05-16T22:20:01: Analyzing "pip._vendor.html5lib.filters.optionaltags"
+2017-05-16T22:20:01: Analyzing "pip._vendor.html5lib.filters.sanitizer"
+2017-05-16T22:20:01: Analyzing "pip._vendor.html5lib.filters.whitespace"
+2017-05-16T22:20:01: Analyzing "pip._vendor.html5lib.filters"
+2017-05-16T22:20:01: Analyzing "pip._vendor.html5lib.treeadapters.genshi"
+2017-05-16T22:20:01: Analyzing "pip._vendor.html5lib.treeadapters.sax"
+2017-05-16T22:20:01: Analyzing "pip._vendor.html5lib.treeadapters"
+2017-05-16T22:20:01: Analyzing "pip._vendor.html5lib.treebuilders.base"
+2017-05-16T22:20:01: Analyzing "pip._vendor.html5lib.treebuilders.dom"
+2017-05-16T22:20:01: Analyzing "pip._vendor.html5lib.treebuilders.etree"
+2017-05-16T22:20:01: Analyzing "pip._vendor.html5lib.treebuilders.etree_lxml"
+2017-05-16T22:20:01: Analyzing "pip._vendor.html5lib.treebuilders"
+2017-05-16T22:20:01: Analyzing "pip._vendor.html5lib.treewalkers.base"
+2017-05-16T22:20:01: Analyzing "pip._vendor.html5lib.treewalkers.dom"
+2017-05-16T22:20:01: Analyzing "pip._vendor.html5lib.treewalkers.etree"
+2017-05-16T22:20:01: Analyzing "pip._vendor.html5lib.treewalkers.etree_lxml"
+2017-05-16T22:20:01: Analyzing "pip._vendor.html5lib.treewalkers.genshi"
+2017-05-16T22:20:01: Analyzing "pip._vendor.html5lib.treewalkers"
+2017-05-16T22:20:01: Analyzing "pip._vendor.html5lib._trie.datrie"
+2017-05-16T22:20:01: Analyzing "pip._vendor.html5lib._trie.py"
+2017-05-16T22:20:01: Analyzing "pip._vendor.html5lib._trie._base"
+2017-05-16T22:20:01: Analyzing "pip._vendor.html5lib._trie"
+2017-05-16T22:20:01: Analyzing "pip._vendor.lockfile.linklockfile"
+2017-05-16T22:20:01: Analyzing "pip._vendor.lockfile.mkdirlockfile"
+2017-05-16T22:20:01: Analyzing "pip._vendor.lockfile.pidlockfile"
+2017-05-16T22:20:01: Analyzing "pip._vendor.lockfile.sqlitelockfile"
+2017-05-16T22:20:01: Analyzing "pip._vendor.lockfile.symlinklockfile"
+2017-05-16T22:20:01: Analyzing "pip._vendor.lockfile"
+2017-05-16T22:20:01: Analyzing "pip._vendor.packaging.markers"
+2017-05-16T22:20:01: Analyzing "pip._vendor.packaging.requirements"
+2017-05-16T22:20:01: Analyzing "pip._vendor.packaging.specifiers"
+2017-05-16T22:20:01: Analyzing "pip._vendor.packaging.utils"
+2017-05-16T22:20:01: Analyzing "pip._vendor.packaging.version"
+2017-05-16T22:20:01: Analyzing "pip._vendor.packaging._compat"
+2017-05-16T22:20:01: Analyzing "pip._vendor.packaging._structures"
+2017-05-16T22:20:01: Analyzing "pip._vendor.packaging.__about__"
+2017-05-16T22:20:01: Analyzing "pip._vendor.packaging"
+2017-05-16T22:20:01: Analyzing "pip._vendor.pkg_resources"
+2017-05-16T22:20:01: Analyzing "pip._vendor.progress.bar"
+2017-05-16T22:20:01: Analyzing "pip._vendor.progress.counter"
+2017-05-16T22:20:01: Analyzing "pip._vendor.progress.helpers"
+2017-05-16T22:20:01: Analyzing "pip._vendor.progress.spinner"
+2017-05-16T22:20:01: Analyzing "pip._vendor.progress"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests.adapters"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests.api"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests.auth"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests.certs"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests.compat"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests.cookies"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests.exceptions"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests.hooks"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests.models"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests.sessions"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests.status_codes"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests.structures"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests.utils"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests.packages"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests.packages.chardet.big5freq"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests.packages.chardet.big5prober"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests.packages.chardet.chardetect"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests.packages.chardet.chardistribution"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests.packages.chardet.charsetgroupprober"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests.packages.chardet.charsetprober"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests.packages.chardet.codingstatemachine"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests.packages.chardet.compat"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests.packages.chardet.constants"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests.packages.chardet.cp949prober"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests.packages.chardet.escprober"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests.packages.chardet.escsm"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests.packages.chardet.eucjpprober"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests.packages.chardet.euckrfreq"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests.packages.chardet.euckrprober"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests.packages.chardet.euctwfreq"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests.packages.chardet.euctwprober"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests.packages.chardet.gb2312freq"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests.packages.chardet.gb2312prober"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests.packages.chardet.hebrewprober"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests.packages.chardet.jisfreq"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests.packages.chardet.jpcntx"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests.packages.chardet.langbulgarianmodel"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests.packages.chardet.langcyrillicmodel"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests.packages.chardet.langgreekmodel"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests.packages.chardet.langhebrewmodel"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests.packages.chardet.langhungarianmodel"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests.packages.chardet.langthaimodel"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests.packages.chardet.latin1prober"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests.packages.chardet.mbcharsetprober"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests.packages.chardet.mbcsgroupprober"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests.packages.chardet.mbcssm"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests.packages.chardet.sbcharsetprober"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests.packages.chardet.sbcsgroupprober"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests.packages.chardet.sjisprober"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests.packages.chardet.universaldetector"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests.packages.chardet.utf8prober"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests.packages.chardet"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests.packages.urllib3.connection"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests.packages.urllib3.connectionpool"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests.packages.urllib3.exceptions"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests.packages.urllib3.fields"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests.packages.urllib3.filepost"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests.packages.urllib3.poolmanager"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests.packages.urllib3.request"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests.packages.urllib3.response"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests.packages.urllib3._collections"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests.packages.urllib3"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests.packages.urllib3.contrib.appengine"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests.packages.urllib3.contrib.ntlmpool"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests.packages.urllib3.contrib.pyopenssl"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests.packages.urllib3.contrib.socks"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests.packages.urllib3.contrib"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests.packages.urllib3.packages.ordered_dict"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests.packages.urllib3.packages.six"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests.packages.urllib3.packages"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests.packages.urllib3.packages.ssl_match_hostname._implementation"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests.packages.urllib3.packages.ssl_match_hostname"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests.packages.urllib3.util.connection"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests.packages.urllib3.util.request"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests.packages.urllib3.util.response"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests.packages.urllib3.util.retry"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests.packages.urllib3.util.ssl_"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests.packages.urllib3.util.timeout"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests.packages.urllib3.util.url"
+2017-05-16T22:20:01: Analyzing "pip._vendor.requests.packages.urllib3.util"
+2017-05-16T22:20:01: Analyzing "pip._vendor.webencodings.labels"
+2017-05-16T22:20:01: Analyzing "pip._vendor.webencodings.mklabels"
+2017-05-16T22:20:01: Analyzing "pip._vendor.webencodings.tests"
+2017-05-16T22:20:01: Analyzing "pip._vendor.webencodings.x_user_defined"
+2017-05-16T22:20:01: Analyzing "pip._vendor.webencodings"
+2017-05-16T22:20:01: Starting analysis of 241 modules
+2017-05-16T22:20:07: Analysis complete
+2017-05-16T22:20:07: Saving group "C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip"
+2017-05-16T22:20:08: End of group "C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pip"
+2017-05-16T22:20:08: Start group "C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pkg_resources" with 1 files
+2017-05-16T22:20:09: Parsing "pkg_resources" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pkg_resources\__init__.py")
+2017-05-16T22:20:09: Parsing complete
+2017-05-16T22:20:09: Analyzing "pkg_resources"
+2017-05-16T22:20:09: Starting analysis of 1 modules
+2017-05-16T22:20:10: Analysis complete
+2017-05-16T22:20:10: Saving group "C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pkg_resources"
+2017-05-16T22:20:10: End of group "C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\pkg_resources"
+2017-05-16T22:20:10: Start group "C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\setuptools" with 48 files
+2017-05-16T22:20:10: Parsing "setuptools.archive_util" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\setuptools\archive_util.py")
+2017-05-16T22:20:10: Parsing "setuptools.config" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\setuptools\config.py")
+2017-05-16T22:20:10: Parsing "setuptools.depends" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\setuptools\depends.py")
+2017-05-16T22:20:10: Parsing "setuptools.dep_util" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\setuptools\dep_util.py")
+2017-05-16T22:20:10: Parsing "setuptools.dist" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\setuptools\dist.py")
+2017-05-16T22:20:10: Parsing "setuptools.extension" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\setuptools\extension.py")
+2017-05-16T22:20:10: Parsing "setuptools.glob" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\setuptools\glob.py")
+2017-05-16T22:20:10: Parsing "setuptools.launch" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\setuptools\launch.py")
+2017-05-16T22:20:10: Parsing "setuptools.lib2to3_ex" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\setuptools\lib2to3_ex.py")
+2017-05-16T22:20:10: Parsing "setuptools.monkey" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\setuptools\monkey.py")
+2017-05-16T22:20:10: Parsing "setuptools.msvc" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\setuptools\msvc.py")
+2017-05-16T22:20:10: Parsing "setuptools.namespaces" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\setuptools\namespaces.py")
+2017-05-16T22:20:10: Parsing "setuptools.package_index" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\setuptools\package_index.py")
+2017-05-16T22:20:10: Parsing "setuptools.py26compat" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\setuptools\py26compat.py")
+2017-05-16T22:20:10: Parsing "setuptools.py27compat" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\setuptools\py27compat.py")
+2017-05-16T22:20:10: Parsing "setuptools.py31compat" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\setuptools\py31compat.py")
+2017-05-16T22:20:10: Parsing "setuptools.py33compat" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\setuptools\py33compat.py")
+2017-05-16T22:20:10: Parsing "setuptools.py36compat" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\setuptools\py36compat.py")
+2017-05-16T22:20:10: Parsing "setuptools.sandbox" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\setuptools\sandbox.py")
+2017-05-16T22:20:10: Parsing "setuptools.ssl_support" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\setuptools\ssl_support.py")
+2017-05-16T22:20:10: Parsing "setuptools.unicode_utils" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\setuptools\unicode_utils.py")
+2017-05-16T22:20:10: Parsing "setuptools.version" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\setuptools\version.py")
+2017-05-16T22:20:10: Parsing "setuptools.windows_support" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\setuptools\windows_support.py")
+2017-05-16T22:20:10: Parsing "setuptools" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\setuptools\__init__.py")
+2017-05-16T22:20:10: Parsing "setuptools.command.alias" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\setuptools\command\alias.py")
+2017-05-16T22:20:10: Parsing "setuptools.command.bdist_egg" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\setuptools\command\bdist_egg.py")
+2017-05-16T22:20:10: Parsing "setuptools.command.bdist_rpm" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\setuptools\command\bdist_rpm.py")
+2017-05-16T22:20:10: Parsing "setuptools.command.bdist_wininst" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\setuptools\command\bdist_wininst.py")
+2017-05-16T22:20:10: Parsing "setuptools.command.build_clib" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\setuptools\command\build_clib.py")
+2017-05-16T22:20:10: Parsing "setuptools.command.build_ext" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\setuptools\command\build_ext.py")
+2017-05-16T22:20:10: Parsing "setuptools.command.build_py" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\setuptools\command\build_py.py")
+2017-05-16T22:20:10: Parsing "setuptools.command.develop" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\setuptools\command\develop.py")
+2017-05-16T22:20:10: Parsing "setuptools.command.easy_install" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\setuptools\command\easy_install.py")
+2017-05-16T22:20:10: Parsing "setuptools.command.egg_info" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\setuptools\command\egg_info.py")
+2017-05-16T22:20:10: Parsing "setuptools.command.install" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\setuptools\command\install.py")
+2017-05-16T22:20:10: Parsing "setuptools.command.install_egg_info" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\setuptools\command\install_egg_info.py")
+2017-05-16T22:20:10: Parsing "setuptools.command.install_lib" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\setuptools\command\install_lib.py")
+2017-05-16T22:20:10: Parsing "setuptools.command.install_scripts" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\setuptools\command\install_scripts.py")
+2017-05-16T22:20:10: Parsing "setuptools.command.py36compat" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\setuptools\command\py36compat.py")
+2017-05-16T22:20:10: Parsing "setuptools.command.register" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\setuptools\command\register.py")
+2017-05-16T22:20:10: Parsing "setuptools.command.rotate" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\setuptools\command\rotate.py")
+2017-05-16T22:20:10: Parsing "setuptools.command.saveopts" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\setuptools\command\saveopts.py")
+2017-05-16T22:20:10: Parsing "setuptools.command.sdist" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\setuptools\command\sdist.py")
+2017-05-16T22:20:10: Parsing "setuptools.command.setopt" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\setuptools\command\setopt.py")
+2017-05-16T22:20:10: Parsing "setuptools.command.test" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\setuptools\command\test.py")
+2017-05-16T22:20:10: Parsing "setuptools.command.upload" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\setuptools\command\upload.py")
+2017-05-16T22:20:10: Parsing "setuptools.command.upload_docs" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\setuptools\command\upload_docs.py")
+2017-05-16T22:20:10: Parsing "setuptools.command" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\setuptools\command\__init__.py")
+2017-05-16T22:20:10: Parsing complete
+2017-05-16T22:20:10: Analyzing "setuptools.archive_util"
+2017-05-16T22:20:10: Analyzing "setuptools.config"
+2017-05-16T22:20:10: Analyzing "setuptools.depends"
+2017-05-16T22:20:10: Analyzing "setuptools.dep_util"
+2017-05-16T22:20:10: Analyzing "setuptools.dist"
+2017-05-16T22:20:10: Analyzing "setuptools.extension"
+2017-05-16T22:20:10: Analyzing "setuptools.glob"
+2017-05-16T22:20:10: Analyzing "setuptools.launch"
+2017-05-16T22:20:10: Analyzing "setuptools.lib2to3_ex"
+2017-05-16T22:20:10: Analyzing "setuptools.monkey"
+2017-05-16T22:20:10: Analyzing "setuptools.msvc"
+2017-05-16T22:20:10: Analyzing "setuptools.namespaces"
+2017-05-16T22:20:10: Analyzing "setuptools.package_index"
+2017-05-16T22:20:10: Analyzing "setuptools.py26compat"
+2017-05-16T22:20:10: Analyzing "setuptools.py27compat"
+2017-05-16T22:20:10: Analyzing "setuptools.py31compat"
+2017-05-16T22:20:10: Analyzing "setuptools.py33compat"
+2017-05-16T22:20:10: Analyzing "setuptools.py36compat"
+2017-05-16T22:20:10: Analyzing "setuptools.sandbox"
+2017-05-16T22:20:10: Analyzing "setuptools.ssl_support"
+2017-05-16T22:20:10: Analyzing "setuptools.unicode_utils"
+2017-05-16T22:20:10: Analyzing "setuptools.version"
+2017-05-16T22:20:10: Analyzing "setuptools.windows_support"
+2017-05-16T22:20:10: Analyzing "setuptools"
+2017-05-16T22:20:10: Analyzing "setuptools.command.alias"
+2017-05-16T22:20:10: Analyzing "setuptools.command.bdist_egg"
+2017-05-16T22:20:10: Analyzing "setuptools.command.bdist_rpm"
+2017-05-16T22:20:10: Analyzing "setuptools.command.bdist_wininst"
+2017-05-16T22:20:10: Analyzing "setuptools.command.build_clib"
+2017-05-16T22:20:10: Analyzing "setuptools.command.build_ext"
+2017-05-16T22:20:10: Analyzing "setuptools.command.build_py"
+2017-05-16T22:20:10: Analyzing "setuptools.command.develop"
+2017-05-16T22:20:10: Analyzing "setuptools.command.easy_install"
+2017-05-16T22:20:10: Analyzing "setuptools.command.egg_info"
+2017-05-16T22:20:10: Analyzing "setuptools.command.install"
+2017-05-16T22:20:10: Analyzing "setuptools.command.install_egg_info"
+2017-05-16T22:20:10: Analyzing "setuptools.command.install_lib"
+2017-05-16T22:20:10: Analyzing "setuptools.command.install_scripts"
+2017-05-16T22:20:10: Analyzing "setuptools.command.py36compat"
+2017-05-16T22:20:10: Analyzing "setuptools.command.register"
+2017-05-16T22:20:10: Analyzing "setuptools.command.rotate"
+2017-05-16T22:20:10: Analyzing "setuptools.command.saveopts"
+2017-05-16T22:20:10: Analyzing "setuptools.command.sdist"
+2017-05-16T22:20:10: Analyzing "setuptools.command.setopt"
+2017-05-16T22:20:10: Analyzing "setuptools.command.test"
+2017-05-16T22:20:10: Analyzing "setuptools.command.upload"
+2017-05-16T22:20:10: Analyzing "setuptools.command.upload_docs"
+2017-05-16T22:20:10: Analyzing "setuptools.command"
+2017-05-16T22:20:10: Starting analysis of 48 modules
+2017-05-16T22:20:12: Analysis complete
+2017-05-16T22:20:12: Saving group "C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\setuptools"
+2017-05-16T22:20:12: End of group "C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\setuptools"
+2017-05-16T22:20:12: Start group "C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\wheel" with 28 files
+2017-05-16T22:20:12: Parsing "wheel.archive" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\wheel\archive.py")
+2017-05-16T22:20:12: Parsing "wheel.bdist_wheel" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\wheel\bdist_wheel.py")
+2017-05-16T22:20:12: Parsing "wheel.decorator" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\wheel\decorator.py")
+2017-05-16T22:20:12: Parsing "wheel.egg2wheel" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\wheel\egg2wheel.py")
+2017-05-16T22:20:12: Parsing "wheel.install" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\wheel\install.py")
+2017-05-16T22:20:12: Parsing "wheel.metadata" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\wheel\metadata.py")
+2017-05-16T22:20:12: Parsing "wheel.paths" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\wheel\paths.py")
+2017-05-16T22:20:12: Parsing "wheel.pep425tags" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\wheel\pep425tags.py")
+2017-05-16T22:20:12: Parsing "wheel.pkginfo" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\wheel\pkginfo.py")
+2017-05-16T22:20:12: Parsing "wheel.util" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\wheel\util.py")
+2017-05-16T22:20:12: Parsing "wheel.wininst2wheel" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\wheel\wininst2wheel.py")
+2017-05-16T22:20:12: Parsing "wheel" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\wheel\__init__.py")
+2017-05-16T22:20:12: Parsing "wheel.__main__" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\wheel\__main__.py")
+2017-05-16T22:20:12: Parsing "wheel.signatures.djbec" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\wheel\signatures\djbec.py")
+2017-05-16T22:20:12: Parsing "wheel.signatures.ed25519py" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\wheel\signatures\ed25519py.py")
+2017-05-16T22:20:12: Parsing "wheel.signatures.keys" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\wheel\signatures\keys.py")
+2017-05-16T22:20:12: Parsing "wheel.signatures" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\wheel\signatures\__init__.py")
+2017-05-16T22:20:12: Parsing "wheel.test.test_basic" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\wheel\test\test_basic.py")
+2017-05-16T22:20:12: Parsing "wheel.test.test_install" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\wheel\test\test_install.py")
+2017-05-16T22:20:12: Parsing "wheel.test.test_keys" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\wheel\test\test_keys.py")
+2017-05-16T22:20:12: Parsing "wheel.test.test_paths" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\wheel\test\test_paths.py")
+2017-05-16T22:20:12: Parsing "wheel.test.test_ranking" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\wheel\test\test_ranking.py")
+2017-05-16T22:20:12: Parsing "wheel.test.test_signatures" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\wheel\test\test_signatures.py")
+2017-05-16T22:20:12: Parsing "wheel.test.test_tagopt" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\wheel\test\test_tagopt.py")
+2017-05-16T22:20:12: Parsing "wheel.test.test_tool" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\wheel\test\test_tool.py")
+2017-05-16T22:20:12: Parsing "wheel.test.test_wheelfile" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\wheel\test\test_wheelfile.py")
+2017-05-16T22:20:12: Parsing "wheel.test" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\wheel\test\__init__.py")
+2017-05-16T22:20:12: Parsing "wheel.tool" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\wheel\tool\__init__.py")
+2017-05-16T22:20:12: Parsing complete
+2017-05-16T22:20:12: Analyzing "wheel.archive"
+2017-05-16T22:20:12: Analyzing "wheel.bdist_wheel"
+2017-05-16T22:20:12: Analyzing "wheel.decorator"
+2017-05-16T22:20:12: Analyzing "wheel.egg2wheel"
+2017-05-16T22:20:12: Analyzing "wheel.install"
+2017-05-16T22:20:12: Analyzing "wheel.metadata"
+2017-05-16T22:20:12: Analyzing "wheel.paths"
+2017-05-16T22:20:12: Analyzing "wheel.pep425tags"
+2017-05-16T22:20:12: Analyzing "wheel.pkginfo"
+2017-05-16T22:20:12: Analyzing "wheel.util"
+2017-05-16T22:20:12: Analyzing "wheel.wininst2wheel"
+2017-05-16T22:20:12: Analyzing "wheel"
+2017-05-16T22:20:12: Analyzing "wheel.__main__"
+2017-05-16T22:20:12: Analyzing "wheel.signatures.djbec"
+2017-05-16T22:20:12: Analyzing "wheel.signatures.ed25519py"
+2017-05-16T22:20:12: Analyzing "wheel.signatures.keys"
+2017-05-16T22:20:12: Analyzing "wheel.signatures"
+2017-05-16T22:20:12: Analyzing "wheel.test.test_basic"
+2017-05-16T22:20:12: Analyzing "wheel.test.test_install"
+2017-05-16T22:20:12: Analyzing "wheel.test.test_keys"
+2017-05-16T22:20:12: Analyzing "wheel.test.test_paths"
+2017-05-16T22:20:12: Analyzing "wheel.test.test_ranking"
+2017-05-16T22:20:12: Analyzing "wheel.test.test_signatures"
+2017-05-16T22:20:12: Analyzing "wheel.test.test_tagopt"
+2017-05-16T22:20:12: Analyzing "wheel.test.test_tool"
+2017-05-16T22:20:12: Analyzing "wheel.test.test_wheelfile"
+2017-05-16T22:20:12: Analyzing "wheel.test"
+2017-05-16T22:20:12: Analyzing "wheel.tool"
+2017-05-16T22:20:12: Starting analysis of 28 modules
+2017-05-16T22:20:14: Analysis complete
+2017-05-16T22:20:14: Saving group "C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\wheel"
+2017-05-16T22:20:14: End of group "C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\wheel"
+2017-05-16T22:20:14: Deleting 0 files
+
+2017-05-16T22:20:43: Start analysis
+2017-05-16T22:20:43: [WARNING] Library was set explicitly - skipping path detection
+2017-05-16T22:20:43: IncludeModulesFromModulePath = win32com
+2017-05-16T22:20:43: Deleting 0 files
+2017-05-16T22:20:43: astropy.CallDepth = 0
+2017-05-16T22:20:43: matplotlib.CallDepth = 3
+2017-05-16T22:20:43: pandas.CallDepth = 0
+2017-05-16T22:20:43: sympy.CallDepth = 0
+2017-05-16T22:20:43: Start group "C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests" with 102 files
+2017-05-16T22:20:43: Parsing "requests.adapters" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\adapters.py")
+2017-05-16T22:20:43: Parsing "requests.api" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\api.py")
+2017-05-16T22:20:43: Parsing "requests.auth" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\auth.py")
+2017-05-16T22:20:43: Parsing "requests.certs" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\certs.py")
+2017-05-16T22:20:43: Parsing "requests.compat" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\compat.py")
+2017-05-16T22:20:43: Parsing "requests.cookies" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\cookies.py")
+2017-05-16T22:20:43: Parsing "requests.exceptions" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\exceptions.py")
+2017-05-16T22:20:43: Parsing "requests.hooks" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\hooks.py")
+2017-05-16T22:20:43: Parsing "requests.models" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\models.py")
+2017-05-16T22:20:43: Parsing "requests.sessions" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\sessions.py")
+2017-05-16T22:20:43: Parsing "requests.status_codes" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\status_codes.py")
+2017-05-16T22:20:43: Parsing "requests.structures" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\structures.py")
+2017-05-16T22:20:43: Parsing "requests.utils" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\utils.py")
+2017-05-16T22:20:43: Parsing "requests._internal_utils" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\_internal_utils.py")
+2017-05-16T22:20:43: Parsing "requests" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\__init__.py")
+2017-05-16T22:20:43: Parsing "requests.packages" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\__init__.py")
+2017-05-16T22:20:43: Parsing "requests.packages.chardet.big5freq" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\chardet\big5freq.py")
+2017-05-16T22:20:43: Parsing "requests.packages.chardet.big5prober" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\chardet\big5prober.py")
+2017-05-16T22:20:43: Parsing "requests.packages.chardet.chardetect" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\chardet\chardetect.py")
+2017-05-16T22:20:43: Parsing "requests.packages.chardet.chardistribution" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\chardet\chardistribution.py")
+2017-05-16T22:20:43: Parsing "requests.packages.chardet.charsetgroupprober" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\chardet\charsetgroupprober.py")
+2017-05-16T22:20:43: Parsing "requests.packages.chardet.charsetprober" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\chardet\charsetprober.py")
+2017-05-16T22:20:43: Parsing "requests.packages.chardet.codingstatemachine" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\chardet\codingstatemachine.py")
+2017-05-16T22:20:43: Parsing "requests.packages.chardet.compat" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\chardet\compat.py")
+2017-05-16T22:20:43: Parsing "requests.packages.chardet.constants" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\chardet\constants.py")
+2017-05-16T22:20:43: Parsing "requests.packages.chardet.cp949prober" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\chardet\cp949prober.py")
+2017-05-16T22:20:43: Parsing "requests.packages.chardet.enums" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\chardet\enums.py")
+2017-05-16T22:20:43: Parsing "requests.packages.chardet.escprober" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\chardet\escprober.py")
+2017-05-16T22:20:43: Parsing "requests.packages.chardet.escsm" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\chardet\escsm.py")
+2017-05-16T22:20:43: Parsing "requests.packages.chardet.eucjpprober" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\chardet\eucjpprober.py")
+2017-05-16T22:20:43: Parsing "requests.packages.chardet.euckrfreq" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\chardet\euckrfreq.py")
+2017-05-16T22:20:43: Parsing "requests.packages.chardet.euckrprober" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\chardet\euckrprober.py")
+2017-05-16T22:20:43: Parsing "requests.packages.chardet.euctwfreq" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\chardet\euctwfreq.py")
+2017-05-16T22:20:43: Parsing "requests.packages.chardet.euctwprober" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\chardet\euctwprober.py")
+2017-05-16T22:20:43: Parsing "requests.packages.chardet.gb2312freq" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\chardet\gb2312freq.py")
+2017-05-16T22:20:43: Parsing "requests.packages.chardet.gb2312prober" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\chardet\gb2312prober.py")
+2017-05-16T22:20:43: Parsing "requests.packages.chardet.hebrewprober" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\chardet\hebrewprober.py")
+2017-05-16T22:20:43: Parsing "requests.packages.chardet.jisfreq" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\chardet\jisfreq.py")
+2017-05-16T22:20:43: Parsing "requests.packages.chardet.jpcntx" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\chardet\jpcntx.py")
+2017-05-16T22:20:43: Parsing "requests.packages.chardet.langbulgarianmodel" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\chardet\langbulgarianmodel.py")
+2017-05-16T22:20:43: Parsing "requests.packages.chardet.langcyrillicmodel" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\chardet\langcyrillicmodel.py")
+2017-05-16T22:20:43: Parsing "requests.packages.chardet.langgreekmodel" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\chardet\langgreekmodel.py")
+2017-05-16T22:20:43: Parsing "requests.packages.chardet.langhebrewmodel" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\chardet\langhebrewmodel.py")
+2017-05-16T22:20:43: Parsing "requests.packages.chardet.langhungarianmodel" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\chardet\langhungarianmodel.py")
+2017-05-16T22:20:43: Parsing "requests.packages.chardet.langthaimodel" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\chardet\langthaimodel.py")
+2017-05-16T22:20:43: Parsing "requests.packages.chardet.langturkishmodel" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\chardet\langturkishmodel.py")
+2017-05-16T22:20:43: Parsing "requests.packages.chardet.latin1prober" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\chardet\latin1prober.py")
+2017-05-16T22:20:43: Parsing "requests.packages.chardet.mbcharsetprober" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\chardet\mbcharsetprober.py")
+2017-05-16T22:20:43: Parsing "requests.packages.chardet.mbcsgroupprober" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\chardet\mbcsgroupprober.py")
+2017-05-16T22:20:43: Parsing "requests.packages.chardet.mbcssm" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\chardet\mbcssm.py")
+2017-05-16T22:20:43: Parsing "requests.packages.chardet.sbcharsetprober" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\chardet\sbcharsetprober.py")
+2017-05-16T22:20:43: Parsing "requests.packages.chardet.sbcsgroupprober" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\chardet\sbcsgroupprober.py")
+2017-05-16T22:20:43: Parsing "requests.packages.chardet.sjisprober" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\chardet\sjisprober.py")
+2017-05-16T22:20:43: Parsing "requests.packages.chardet.universaldetector" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\chardet\universaldetector.py")
+2017-05-16T22:20:43: Parsing "requests.packages.chardet.utf8prober" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\chardet\utf8prober.py")
+2017-05-16T22:20:43: Parsing "requests.packages.chardet.version" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\chardet\version.py")
+2017-05-16T22:20:43: Parsing "requests.packages.chardet" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\chardet\__init__.py")
+2017-05-16T22:20:43: Parsing "requests.packages.chardet.cli.chardetect" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\chardet\cli\chardetect.py")
+2017-05-16T22:20:43: Parsing "requests.packages.chardet.cli" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\chardet\cli\__init__.py")
+2017-05-16T22:20:43: Parsing "requests.packages.idna.codec" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\idna\codec.py")
+2017-05-16T22:20:43: Parsing "requests.packages.idna.compat" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\idna\compat.py")
+2017-05-16T22:20:43: Parsing "requests.packages.idna.core" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\idna\core.py")
+2017-05-16T22:20:43: Parsing "requests.packages.idna.idnadata" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\idna\idnadata.py")
+2017-05-16T22:20:43: Parsing "requests.packages.idna.intranges" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\idna\intranges.py")
+2017-05-16T22:20:43: Parsing "requests.packages.idna.uts46data" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\idna\uts46data.py")
+2017-05-16T22:20:43: Parsing "requests.packages.idna" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\idna\__init__.py")
+2017-05-16T22:20:43: Parsing "requests.packages.urllib3.connection" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\urllib3\connection.py")
+2017-05-16T22:20:43: Parsing "requests.packages.urllib3.connectionpool" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\urllib3\connectionpool.py")
+2017-05-16T22:20:43: Parsing "requests.packages.urllib3.exceptions" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\urllib3\exceptions.py")
+2017-05-16T22:20:43: Parsing "requests.packages.urllib3.fields" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\urllib3\fields.py")
+2017-05-16T22:20:43: Parsing "requests.packages.urllib3.filepost" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\urllib3\filepost.py")
+2017-05-16T22:20:43: Parsing "requests.packages.urllib3.poolmanager" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\urllib3\poolmanager.py")
+2017-05-16T22:20:43: Parsing "requests.packages.urllib3.request" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\urllib3\request.py")
+2017-05-16T22:20:43: Parsing "requests.packages.urllib3.response" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\urllib3\response.py")
+2017-05-16T22:20:43: Parsing "requests.packages.urllib3._collections" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\urllib3\_collections.py")
+2017-05-16T22:20:43: Parsing "requests.packages.urllib3" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\urllib3\__init__.py")
+2017-05-16T22:20:43: Parsing "requests.packages.urllib3.contrib.appengine" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\urllib3\contrib\appengine.py")
+2017-05-16T22:20:43: Parsing "requests.packages.urllib3.contrib.ntlmpool" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\urllib3\contrib\ntlmpool.py")
+2017-05-16T22:20:43: Parsing "requests.packages.urllib3.contrib.pyopenssl" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\urllib3\contrib\pyopenssl.py")
+2017-05-16T22:20:43: Parsing "requests.packages.urllib3.contrib.securetransport" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\urllib3\contrib\securetransport.py")
+2017-05-16T22:20:43: Parsing "requests.packages.urllib3.contrib.socks" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\urllib3\contrib\socks.py")
+2017-05-16T22:20:43: Parsing "requests.packages.urllib3.contrib" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\urllib3\contrib\__init__.py")
+2017-05-16T22:20:43: Parsing "requests.packages.urllib3.contrib._securetransport.bindings" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\urllib3\contrib\_securetransport\bindings.py")
+2017-05-16T22:20:43: Parsing "requests.packages.urllib3.contrib._securetransport.low_level" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\urllib3\contrib\_securetransport\low_level.py")
+2017-05-16T22:20:43: Parsing "requests.packages.urllib3.contrib._securetransport" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\urllib3\contrib\_securetransport\__init__.py")
+2017-05-16T22:20:43: Parsing "requests.packages.urllib3.packages.ordered_dict" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\urllib3\packages\ordered_dict.py")
+2017-05-16T22:20:43: Parsing "requests.packages.urllib3.packages.six" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\urllib3\packages\six.py")
+2017-05-16T22:20:43: Parsing "requests.packages.urllib3.packages" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\urllib3\packages\__init__.py")
+2017-05-16T22:20:43: Parsing "requests.packages.urllib3.packages.backports.makefile" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\urllib3\packages\backports\makefile.py")
+2017-05-16T22:20:43: Parsing "requests.packages.urllib3.packages.backports" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\urllib3\packages\backports\__init__.py")
+2017-05-16T22:20:43: Parsing "requests.packages.urllib3.packages.ssl_match_hostname._implementation" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\urllib3\packages\ssl_match_hostname\_implementation.py")
+2017-05-16T22:20:43: Parsing "requests.packages.urllib3.packages.ssl_match_hostname" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\urllib3\packages\ssl_match_hostname\__init__.py")
+2017-05-16T22:20:43: Parsing "requests.packages.urllib3.util.connection" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\urllib3\util\connection.py")
+2017-05-16T22:20:43: Parsing "requests.packages.urllib3.util.request" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\urllib3\util\request.py")
+2017-05-16T22:20:43: Parsing "requests.packages.urllib3.util.response" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\urllib3\util\response.py")
+2017-05-16T22:20:43: Parsing "requests.packages.urllib3.util.retry" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\urllib3\util\retry.py")
+2017-05-16T22:20:43: Parsing "requests.packages.urllib3.util.selectors" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\urllib3\util\selectors.py")
+2017-05-16T22:20:43: Parsing "requests.packages.urllib3.util.ssl_" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\urllib3\util\ssl_.py")
+2017-05-16T22:20:43: Parsing "requests.packages.urllib3.util.timeout" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\urllib3\util\timeout.py")
+2017-05-16T22:20:43: Parsing "requests.packages.urllib3.util.url" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\urllib3\util\url.py")
+2017-05-16T22:20:43: Parsing "requests.packages.urllib3.util.wait" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\urllib3\util\wait.py")
+2017-05-16T22:20:43: Parsing "requests.packages.urllib3.util" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests\packages\urllib3\util\__init__.py")
+2017-05-16T22:20:43: Parsing complete
+2017-05-16T22:20:43: Analyzing "requests.adapters"
+2017-05-16T22:20:43: Analyzing "requests.api"
+2017-05-16T22:20:43: Analyzing "requests.auth"
+2017-05-16T22:20:43: Analyzing "requests.certs"
+2017-05-16T22:20:43: Analyzing "requests.compat"
+2017-05-16T22:20:43: Analyzing "requests.cookies"
+2017-05-16T22:20:43: Analyzing "requests.exceptions"
+2017-05-16T22:20:43: Analyzing "requests.hooks"
+2017-05-16T22:20:43: Analyzing "requests.models"
+2017-05-16T22:20:43: Analyzing "requests.sessions"
+2017-05-16T22:20:43: Analyzing "requests.status_codes"
+2017-05-16T22:20:43: Analyzing "requests.structures"
+2017-05-16T22:20:43: Analyzing "requests.utils"
+2017-05-16T22:20:43: Analyzing "requests._internal_utils"
+2017-05-16T22:20:43: Analyzing "requests"
+2017-05-16T22:20:43: Analyzing "requests.packages"
+2017-05-16T22:20:43: Analyzing "requests.packages.chardet.big5freq"
+2017-05-16T22:20:43: Analyzing "requests.packages.chardet.big5prober"
+2017-05-16T22:20:43: Analyzing "requests.packages.chardet.chardetect"
+2017-05-16T22:20:43: Analyzing "requests.packages.chardet.chardistribution"
+2017-05-16T22:20:43: Analyzing "requests.packages.chardet.charsetgroupprober"
+2017-05-16T22:20:43: Analyzing "requests.packages.chardet.charsetprober"
+2017-05-16T22:20:43: Analyzing "requests.packages.chardet.codingstatemachine"
+2017-05-16T22:20:43: Analyzing "requests.packages.chardet.compat"
+2017-05-16T22:20:43: Analyzing "requests.packages.chardet.constants"
+2017-05-16T22:20:43: Analyzing "requests.packages.chardet.cp949prober"
+2017-05-16T22:20:43: Analyzing "requests.packages.chardet.enums"
+2017-05-16T22:20:43: Analyzing "requests.packages.chardet.escprober"
+2017-05-16T22:20:43: Analyzing "requests.packages.chardet.escsm"
+2017-05-16T22:20:43: Analyzing "requests.packages.chardet.eucjpprober"
+2017-05-16T22:20:43: Analyzing "requests.packages.chardet.euckrfreq"
+2017-05-16T22:20:43: Analyzing "requests.packages.chardet.euckrprober"
+2017-05-16T22:20:43: Analyzing "requests.packages.chardet.euctwfreq"
+2017-05-16T22:20:43: Analyzing "requests.packages.chardet.euctwprober"
+2017-05-16T22:20:43: Analyzing "requests.packages.chardet.gb2312freq"
+2017-05-16T22:20:43: Analyzing "requests.packages.chardet.gb2312prober"
+2017-05-16T22:20:43: Analyzing "requests.packages.chardet.hebrewprober"
+2017-05-16T22:20:43: Analyzing "requests.packages.chardet.jisfreq"
+2017-05-16T22:20:43: Analyzing "requests.packages.chardet.jpcntx"
+2017-05-16T22:20:43: Analyzing "requests.packages.chardet.langbulgarianmodel"
+2017-05-16T22:20:43: Analyzing "requests.packages.chardet.langcyrillicmodel"
+2017-05-16T22:20:43: Analyzing "requests.packages.chardet.langgreekmodel"
+2017-05-16T22:20:43: Analyzing "requests.packages.chardet.langhebrewmodel"
+2017-05-16T22:20:43: Analyzing "requests.packages.chardet.langhungarianmodel"
+2017-05-16T22:20:43: Analyzing "requests.packages.chardet.langthaimodel"
+2017-05-16T22:20:43: Analyzing "requests.packages.chardet.langturkishmodel"
+2017-05-16T22:20:43: Analyzing "requests.packages.chardet.latin1prober"
+2017-05-16T22:20:43: Analyzing "requests.packages.chardet.mbcharsetprober"
+2017-05-16T22:20:43: Analyzing "requests.packages.chardet.mbcsgroupprober"
+2017-05-16T22:20:43: Analyzing "requests.packages.chardet.mbcssm"
+2017-05-16T22:20:43: Analyzing "requests.packages.chardet.sbcharsetprober"
+2017-05-16T22:20:43: Analyzing "requests.packages.chardet.sbcsgroupprober"
+2017-05-16T22:20:43: Analyzing "requests.packages.chardet.sjisprober"
+2017-05-16T22:20:43: Analyzing "requests.packages.chardet.universaldetector"
+2017-05-16T22:20:43: Analyzing "requests.packages.chardet.utf8prober"
+2017-05-16T22:20:43: Analyzing "requests.packages.chardet.version"
+2017-05-16T22:20:43: Analyzing "requests.packages.chardet"
+2017-05-16T22:20:43: Analyzing "requests.packages.chardet.cli.chardetect"
+2017-05-16T22:20:43: Analyzing "requests.packages.chardet.cli"
+2017-05-16T22:20:43: Analyzing "requests.packages.idna.codec"
+2017-05-16T22:20:43: Analyzing "requests.packages.idna.compat"
+2017-05-16T22:20:43: Analyzing "requests.packages.idna.core"
+2017-05-16T22:20:43: Analyzing "requests.packages.idna.idnadata"
+2017-05-16T22:20:43: Analyzing "requests.packages.idna.intranges"
+2017-05-16T22:20:43: Analyzing "requests.packages.idna.uts46data"
+2017-05-16T22:20:43: Analyzing "requests.packages.idna"
+2017-05-16T22:20:43: Analyzing "requests.packages.urllib3.connection"
+2017-05-16T22:20:43: Analyzing "requests.packages.urllib3.connectionpool"
+2017-05-16T22:20:43: Analyzing "requests.packages.urllib3.exceptions"
+2017-05-16T22:20:43: Analyzing "requests.packages.urllib3.fields"
+2017-05-16T22:20:43: Analyzing "requests.packages.urllib3.filepost"
+2017-05-16T22:20:43: Analyzing "requests.packages.urllib3.poolmanager"
+2017-05-16T22:20:43: Analyzing "requests.packages.urllib3.request"
+2017-05-16T22:20:43: Analyzing "requests.packages.urllib3.response"
+2017-05-16T22:20:43: Analyzing "requests.packages.urllib3._collections"
+2017-05-16T22:20:43: Analyzing "requests.packages.urllib3"
+2017-05-16T22:20:43: Analyzing "requests.packages.urllib3.contrib.appengine"
+2017-05-16T22:20:43: Analyzing "requests.packages.urllib3.contrib.ntlmpool"
+2017-05-16T22:20:43: Analyzing "requests.packages.urllib3.contrib.pyopenssl"
+2017-05-16T22:20:43: Analyzing "requests.packages.urllib3.contrib.securetransport"
+2017-05-16T22:20:43: Analyzing "requests.packages.urllib3.contrib.socks"
+2017-05-16T22:20:43: Analyzing "requests.packages.urllib3.contrib"
+2017-05-16T22:20:43: Analyzing "requests.packages.urllib3.contrib._securetransport.bindings"
+2017-05-16T22:20:43: Analyzing "requests.packages.urllib3.contrib._securetransport.low_level"
+2017-05-16T22:20:43: Analyzing "requests.packages.urllib3.contrib._securetransport"
+2017-05-16T22:20:43: Analyzing "requests.packages.urllib3.packages.ordered_dict"
+2017-05-16T22:20:43: Analyzing "requests.packages.urllib3.packages.six"
+2017-05-16T22:20:43: Analyzing "requests.packages.urllib3.packages"
+2017-05-16T22:20:43: Analyzing "requests.packages.urllib3.packages.backports.makefile"
+2017-05-16T22:20:43: Analyzing "requests.packages.urllib3.packages.backports"
+2017-05-16T22:20:43: Analyzing "requests.packages.urllib3.packages.ssl_match_hostname._implementation"
+2017-05-16T22:20:43: Analyzing "requests.packages.urllib3.packages.ssl_match_hostname"
+2017-05-16T22:20:43: Analyzing "requests.packages.urllib3.util.connection"
+2017-05-16T22:20:43: Analyzing "requests.packages.urllib3.util.request"
+2017-05-16T22:20:43: Analyzing "requests.packages.urllib3.util.response"
+2017-05-16T22:20:43: Analyzing "requests.packages.urllib3.util.retry"
+2017-05-16T22:20:43: Analyzing "requests.packages.urllib3.util.selectors"
+2017-05-16T22:20:43: Analyzing "requests.packages.urllib3.util.ssl_"
+2017-05-16T22:20:43: Analyzing "requests.packages.urllib3.util.timeout"
+2017-05-16T22:20:43: Analyzing "requests.packages.urllib3.util.url"
+2017-05-16T22:20:43: Analyzing "requests.packages.urllib3.util.wait"
+2017-05-16T22:20:43: Analyzing "requests.packages.urllib3.util"
+2017-05-16T22:20:43: Starting analysis of 102 modules
+2017-05-16T22:23:50: Analysis complete
+2017-05-16T22:23:50: Saving group "C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests"
+2017-05-16T22:23:51: End of group "C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\requests"
+2017-05-16T22:23:51: Start group "C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\slackclient" with 9 files
+2017-05-16T22:23:51: Parsing "slackclient.version" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\slackclient\version.py")
+2017-05-16T22:23:51: Parsing "slackclient._channel" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\slackclient\_channel.py")
+2017-05-16T22:23:51: Parsing "slackclient._client" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\slackclient\_client.py")
+2017-05-16T22:23:51: Parsing "slackclient._im" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\slackclient\_im.py")
+2017-05-16T22:23:51: Parsing "slackclient._server" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\slackclient\_server.py")
+2017-05-16T22:23:51: Parsing "slackclient._slackrequest" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\slackclient\_slackrequest.py")
+2017-05-16T22:23:51: Parsing "slackclient._user" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\slackclient\_user.py")
+2017-05-16T22:23:51: Parsing "slackclient._util" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\slackclient\_util.py")
+2017-05-16T22:23:51: Parsing "slackclient" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\slackclient\__init__.py")
+2017-05-16T22:23:51: Parsing complete
+2017-05-16T22:23:51: Analyzing "slackclient.version"
+2017-05-16T22:23:51: Analyzing "slackclient._channel"
+2017-05-16T22:23:51: Analyzing "slackclient._client"
+2017-05-16T22:23:51: Analyzing "slackclient._im"
+2017-05-16T22:23:51: Analyzing "slackclient._server"
+2017-05-16T22:23:51: Analyzing "slackclient._slackrequest"
+2017-05-16T22:23:51: Analyzing "slackclient._user"
+2017-05-16T22:23:51: Analyzing "slackclient._util"
+2017-05-16T22:23:51: Analyzing "slackclient"
+2017-05-16T22:23:51: Starting analysis of 9 modules
+2017-05-16T22:23:52: Analysis complete
+2017-05-16T22:23:52: Saving group "C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\slackclient"
+2017-05-16T22:23:52: End of group "C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\slackclient"
+2017-05-16T22:23:52: Start group "C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\websocket" with 14 files
+2017-05-16T22:23:52: Parsing "websocket._abnf" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\websocket\_abnf.py")
+2017-05-16T22:23:52: Parsing "websocket._app" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\websocket\_app.py")
+2017-05-16T22:23:52: Parsing "websocket._core" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\websocket\_core.py")
+2017-05-16T22:23:52: Parsing "websocket._exceptions" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\websocket\_exceptions.py")
+2017-05-16T22:23:52: Parsing "websocket._handshake" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\websocket\_handshake.py")
+2017-05-16T22:23:52: Parsing "websocket._http" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\websocket\_http.py")
+2017-05-16T22:23:52: Parsing "websocket._logging" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\websocket\_logging.py")
+2017-05-16T22:23:52: Parsing "websocket._socket" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\websocket\_socket.py")
+2017-05-16T22:23:52: Parsing "websocket._ssl_compat" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\websocket\_ssl_compat.py")
+2017-05-16T22:23:52: Parsing "websocket._url" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\websocket\_url.py")
+2017-05-16T22:23:52: Parsing "websocket._utils" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\websocket\_utils.py")
+2017-05-16T22:23:52: Parsing "websocket" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\websocket\__init__.py")
+2017-05-16T22:23:52: Parsing "websocket.tests.test_websocket" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\websocket\tests\test_websocket.py")
+2017-05-16T22:23:52: Parsing "websocket.tests" ("C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\websocket\tests\__init__.py")
+2017-05-16T22:23:52: Parsing complete
+2017-05-16T22:23:52: Analyzing "websocket._abnf"
+2017-05-16T22:23:52: Analyzing "websocket._app"
+2017-05-16T22:23:52: Analyzing "websocket._core"
+2017-05-16T22:23:52: Analyzing "websocket._exceptions"
+2017-05-16T22:23:52: Analyzing "websocket._handshake"
+2017-05-16T22:23:52: Analyzing "websocket._http"
+2017-05-16T22:23:52: Analyzing "websocket._logging"
+2017-05-16T22:23:52: Analyzing "websocket._socket"
+2017-05-16T22:23:52: Analyzing "websocket._ssl_compat"
+2017-05-16T22:23:52: Analyzing "websocket._url"
+2017-05-16T22:23:52: Analyzing "websocket._utils"
+2017-05-16T22:23:52: Analyzing "websocket"
+2017-05-16T22:23:52: Analyzing "websocket.tests.test_websocket"
+2017-05-16T22:23:52: Analyzing "websocket.tests"
+2017-05-16T22:23:52: Starting analysis of 14 modules
+2017-05-16T22:23:54: Analysis complete
+2017-05-16T22:23:54: Saving group "C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\websocket"
+2017-05-16T22:23:54: End of group "C:\Users\Ben\Documents\Visual Studio 2015\Projects\DankTuneBot\DankTuneBot\ENV\Lib\site-packages\websocket"
+2017-05-16T22:23:54: Deleting 0 files
