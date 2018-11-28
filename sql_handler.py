@@ -3,20 +3,143 @@ import time
 import os
 
 class sql_handler:
-    def store_song_data(self, songdata):
-        
-        sql_token = os.environ.get('HEROKU_SQL_PASS')
 
-        connection = psycopg2.connect(host='ec2-107-20-141-145.compute-1.amazonaws.com', dbname='d5cejcurhdso4s', user = 'afefiqlegorfsj', password = sql_token)
+    sql_token = os.environ.get('HEROKU_SQL_PASS')
+
+    ip_address = '127.0.0.1'
+
+    db_name = 'postgres'
+
+    sql_user = 'postgres'
+    
+    def update_listens(self, ts, users):
+
+        users_formatted = users
+
+        connection = psycopg2.connect(host= self.ip_address, dbname= self.db_name, user = self.sql_user, password = self.sql_token)
 
         cursor = connection.cursor()
 
         cursor.execute("BEGIN TRANSACTION") 
 
-        print(songdata['ts'])
+        cursor.execute('''UPDATE "PostedSongData" SET listened_status = (%s) WHERE ts = %s''', (users_formatted,ts))
 
-        cursor.execute('''INSERT INTO "PostedSongData" VALUES (%s,%s,%s,%s,%s,%s,%s)''',  
-                       (songdata['ts'],songdata['song_name'], songdata['song_link'],songdata['song_artist'],songdata['user'],songdata['channel'],0)) 
+        cursor.execute("COMMIT TRANSACTION")
+
+        connection.commit()
+
+        connection.close()
+
+    def get_unlistened_to(self,userid):
+        connection = psycopg2.connect(host= self.ip_address, dbname= self.db_name, user = self.sql_user, password = self.sql_token)
+
+        cursor = connection.cursor()
+        
+        cursor.execute("BEGIN TRANSACTION")
+
+        cursor.execute('''SELECT ts, song_name, song_link, song_artist, channel, listened_status FROM "PostedSongData"''')
+
+        tschannel = []
+
+        results = []
+
+        for row in cursor:
+            results.append(row)
+
+        for row in results:
+            if not userid in row[5]:
+                tschannel.append([row[0],row[1], row[2], row[3], row[4],""])
+
+        return tschannel
+
+    def song_posted_already(self, song_title, song_artist):
+        
+        connection = psycopg2.connect(host= self.ip_address, dbname= self.db_name, user = self.sql_user, password = self.sql_token)
+
+        cursor = connection.cursor()
+        
+        cursor.execute("BEGIN TRANSACTION") 
+
+        cursor.execute('''SELECT * FROM "PostedSongData" WHERE song_name = %s''' % ("'"+song_title+"'"))
+
+        results = []
+
+        for row in cursor:
+            results.append(row)
+
+        if len(results) == 0:
+            connection.close()
+            return False
+
+        cursor.execute('''SELECT * FROM "PostedSongData" WHERE song_artist = %s''' % ("'"+song_artist+"'"))
+
+        results.clear()
+
+        for row in cursor:
+            results.append(row)
+
+        connection.close()
+
+        if len(results) == 0:
+            return False
+        else:
+            return True
+
+    def get_song(self, song_name, song_artist):
+        connection = psycopg2.connect(host= self.ip_address, dbname= self.db_name, user = self.sql_user, password = self.sql_token)
+
+        cursor = connection.cursor()
+        
+        cursor.execute("BEGIN TRANSACTION") 
+
+        cursor.execute('''SELECT ts FROM "PostedSongData" WHERE song_name = %s AND song_artist = %s''' % ("'"+song_name+"'","'"+song_artist+"'"))
+
+        results = []
+
+        for row in cursor:
+            results.append(row)
+
+        ts = results[0][0]
+
+        cursor.execute('''SELECT userid FROM "PostedSongData" WHERE song_name = %s AND song_artist = %s''' % ("'"+song_name+"'","'"+song_artist+"'"))
+
+        results.clear()
+
+        for row in cursor:
+            results.append(row)
+
+        userid = results[0][0]
+
+        cursor.execute('''SELECT channel FROM "PostedSongData" WHERE song_name = %s AND song_artist = %s''' % ("'"+song_name+"'","'"+song_artist+"'"))
+
+        results.clear()
+
+        for row in cursor:
+            results.append(row)
+
+        channel = results[0][0]
+
+        cursor.execute('''SELECT real_name FROM "users" WHERE user_id = %s''' % ("'"+userid+"'"))
+
+        results.clear()
+
+        for row in cursor:
+            results.append(row)
+
+        user_name = results[0][0]
+
+        return user_name,ts,channel
+
+    def store_song_data(self, songdata):
+
+        connection = psycopg2.connect(host= self.ip_address, dbname= self.db_name, user = self.sql_user, password = self.sql_token)
+
+        cursor = connection.cursor()
+        
+        cursor.execute("BEGIN TRANSACTION") 
+
+        cursor.execute('''INSERT INTO "PostedSongData" VALUES (%s,%s,%s,%s,%s,%s,%s,%s)''',  
+                       (songdata['ts'],songdata['song_name'], songdata['song_link'],songdata['song_artist'],songdata['user'],songdata['channel'],0,"")) 
 
         
         cursor.execute('''SELECT songs_posted_today FROM "users" WHERE user_id = %s'''% ("'"+songdata['user']+"'"))
@@ -26,12 +149,11 @@ class sql_handler:
 
         for row in cursor:
             songs_today = row[0] + 1
-
-
+        
         cursor.execute('''SELECT songs_posted_alltime FROM "users" WHERE user_id = %s'''% ("'"+songdata['user']+"'"))
 
         for row in cursor:
-            songs_alltime = row[0] + 1 #this changed
+            songs_alltime = row[0] + 1
         
         cursor.execute('''UPDATE "users" SET songs_posted_today = %s WHERE user_id = %s '''% (songs_today,"'"+songdata['user']+"'"))
 
@@ -43,12 +165,9 @@ class sql_handler:
 
         connection.close()
 
-    
     def clear_posted_today(self):
 
-        sql_token = os.environ.get('HEROKU_SQL_PASS')
-
-        connection = psycopg2.connect(host='ec2-107-20-141-145.compute-1.amazonaws.com', dbname='d5cejcurhdso4s', user = 'afefiqlegorfsj', password = sql_token)
+        connection = psycopg2.connect(host= self.ip_address, dbname= self.db_name, user = self.sql_user, password = self.sql_token)
 
         cursor = connection.cursor()
 
@@ -62,102 +181,85 @@ class sql_handler:
 
         connection.close()
 
+    def new_dank_song(self, ts):
 
-    def new_dank_song(self, connection, cursor, ts):
+        connection = psycopg2.connect(host= self.ip_address, dbname= self.db_name, user = self.sql_user, password = self.sql_token)
+
+        cursor = connection.cursor()
+
+        cursor.execute("BEGIN TRANSACTION")
 
         cursor.execute('''SELECT * FROM "PostedSongData" WHERE ts=%s''', [ts])
 
         for row in cursor:
-            print(row)
             songdata = row
-
 
         cursor.execute('''INSERT INTO "DankSongData" VALUES (%s,%s,%s,%s,%s,%s)''', (songdata[0],songdata[1],songdata[2],songdata[3],songdata[4],songdata[5]))
 
+        print("Add Dank")
 
-    def added_reaction(self, messagets):
-        sql_token = os.environ.get('HEROKU_SQL_PASS')
+        cursor.execute("COMMIT TRANSACTION")
 
-        connection = psycopg2.connect(host='ec2-107-20-141-145.compute-1.amazonaws.com', dbname='d5cejcurhdso4s', user = 'afefiqlegorfsj', password = sql_token)
+        connection.commit()
+
+        connection.close()
+
+    def remove_dank_song(self, ts):
+
+        connection = psycopg2.connect(host= self.ip_address, dbname= self.db_name, user = self.sql_user, password = self.sql_token)
+
+        cursor = connection.cursor()
+
+        cursor.execute("BEGIN TRANSACTION")
+
+        cursor.execute('''DELETE FROM "DankSongData" WHERE ts = %s'''%("'"+ts+"'"))
+
+        print("Remove Dank")
+
+        cursor.execute("COMMIT TRANSACTION")
+
+        connection.commit()
+
+        connection.close()
+
+    def update_reaction(self, ts, votes):
+
+        connection = psycopg2.connect(host= self.ip_address, dbname= self.db_name, user = self.sql_user, password = self.sql_token)
 
         cursor = connection.cursor()
 
         cursor.execute("BEGIN TRANSACTION") 
 
-        cursor.execute('''SELECT votes FROM "PostedSongData"''')
+        cursor.execute('''UPDATE "PostedSongData" SET votes = (%s) WHERE ts = %s''', (votes,ts))
+        print("DB Updated Reaction @ " + str(ts) + " " + str(votes))
+
+        cursor.execute("COMMIT TRANSACTION")
+
+        connection.commit()
+
+        connection.close()
+
+    def get_reactions(self, messagets):
+
+        connection = psycopg2.connect(host= self.ip_address, dbname= self.db_name, user = self.sql_user, password = self.sql_token)
+
+        cursor = connection.cursor()
+
+        cursor.execute("BEGIN TRANSACTION") 
+
+        cursor.execute('''SELECT votes FROM "PostedSongData" WHERE ts = %s ''' % "'"+messagets+"'")
 
         resultsvotes=[]
 
         for row in cursor:
             resultsvotes.append(row[0])
 
-        cursor.execute('''SELECT ts FROM "PostedSongData"''')
-
-        resultsts=[]
-
-        for row in cursor:
-            resultsts.append(row[0])
-
-        votedict = {}
-        n=0
-        while n < len(resultsts):
-            votedict[resultsts[n]] = resultsvotes[n]
-            n+=1
-
-        for ts in votedict:
-            if abs(float(ts) - float(messagets)) < .0001:
-                cursor.execute('''UPDATE "PostedSongData" SET (votes) = (%s) WHERE ts = %s''', ((int(votedict[ts])+1),ts))
-                print("Add One @ " + str(ts) + " " + str(votedict[ts]))
-                if (votedict[ts] == 2):
-                    print("Add Dank")
-                    self.new_dank_song(connection, cursor, ts)
-
-
-        cursor.execute("COMMIT TRANSACTION")
-
-        connection.commit()
-
-        connection.close()
-
-    
-    def removed_reaction(self, messagets):
-
-        sql_token = os.environ.get('HEROKU_SQL_PASS')
-
-        connection = psycopg2.connect(host='ec2-107-20-141-145.compute-1.amazonaws.com', dbname='d5cejcurhdso4s', user = 'afefiqlegorfsj', password = sql_token)
-
-        cursor = connection.cursor()
-
-        cursor.execute("BEGIN TRANSACTION") 
-
-        cursor.execute('''SELECT votes FROM "PostedSongData" WHERE ts = %s'''% ("'"+messagets+"'"))
-
-        results = []
-
-        for row in cursor:
-            results.append(row)
-
-        if not len(results) == 0:
-            print(results[0])
-            cursor.execute('''UPDATE "PostedSongData" SET votes = %s WHERE ts = %s ''', ((results[0][0]-1),messagets))
-            print("Remove One @ " + messagets + " " + str(results[0][0]))
-
-            if (results[0][0] == 3):
-                print("Remove Dank")
-                cursor.execute('''DELETE FROM "DankSongData" WHERE ts = %s'''%("'"+messagets+"'"))
-
-        cursor.execute("COMMIT TRANSACTION")
-
-        connection.commit()
-
-        connection.close()
-        
+        print("DB Votes =" + str(resultsvotes[0]))
+        return resultsvotes[0]
 
     def danktunes_posted_today(self):
 
-        sql_token = os.environ.get('HEROKU_SQL_PASS')
-
-        connection = psycopg2.connect(host='ec2-107-20-141-145.compute-1.amazonaws.com', dbname='d5cejcurhdso4s', user = 'afefiqlegorfsj', password = sql_token)
+        connection = psycopg2.connect(host= self.ip_address, dbname= self.db_name, user = self.sql_user, password = self.sql_token)
 
         cursor = connection.cursor()
 
@@ -175,11 +277,9 @@ class sql_handler:
 
         return results
 
-
     def dank_songs_in_period(self, period):
-        sql_token = os.environ.get('HEROKU_SQL_PASS')
 
-        connection = psycopg2.connect(host='ec2-107-20-141-145.compute-1.amazonaws.com', dbname='d5cejcurhdso4s', user = 'afefiqlegorfsj', password = sql_token)
+        connection = psycopg2.connect(host= self.ip_address, dbname= self.db_name, user = self.sql_user, password = self.sql_token)
 
         cursor = connection.cursor()
 
@@ -193,11 +293,9 @@ class sql_handler:
                 results.append(row)
         return results
 
-
     def user_exists(self, userid):
-        sql_token = os.environ.get('HEROKU_SQL_PASS')
 
-        connection = psycopg2.connect(host='ec2-107-20-141-145.compute-1.amazonaws.com', dbname='d5cejcurhdso4s', user = 'afefiqlegorfsj', password = sql_token)
+        connection = psycopg2.connect(host= self.ip_address, dbname= self.db_name, user = self.sql_user, password = self.sql_token)
 
         cursor = connection.cursor()
 
@@ -218,11 +316,9 @@ class sql_handler:
 
         return found
 
-
     def song_exists(self, timestamp):
-        sql_token = os.environ.get('HEROKU_SQL_PASS')
 
-        connection = psycopg2.connect(host='ec2-107-20-141-145.compute-1.amazonaws.com', dbname='d5cejcurhdso4s', user = 'afefiqlegorfsj', password = sql_token)
+        connection = psycopg2.connect(host= self.ip_address, dbname= self.db_name, user = self.sql_user, password = self.sql_token)
 
         cursor = connection.cursor()
 
@@ -243,12 +339,9 @@ class sql_handler:
 
         return found
 
-
     def create_user(self, userinfo):
-        
-        sql_token = os.environ.get('HEROKU_SQL_PASS')
 
-        connection = psycopg2.connect(host='ec2-107-20-141-145.compute-1.amazonaws.com', dbname='d5cejcurhdso4s', user = 'afefiqlegorfsj', password = sql_token)
+        connection = psycopg2.connect(host= self.ip_address, dbname= self.db_name, user = self.sql_user, password = self.sql_token)
 
         cursor = connection.cursor()
 
@@ -261,12 +354,10 @@ class sql_handler:
         connection.commit()
 
         connection.close()
-
     
     def user_posts_today(self, userid):
-        sql_token = os.environ.get('HEROKU_SQL_PASS')
 
-        connection = psycopg2.connect(host='ec2-107-20-141-145.compute-1.amazonaws.com', dbname='d5cejcurhdso4s', user = 'afefiqlegorfsj', password = sql_token)
+        connection = psycopg2.connect(host= self.ip_address, dbname= self.db_name, user = self.sql_user, password = self.sql_token)
 
         cursor = connection.cursor()
 
@@ -281,12 +372,9 @@ class sql_handler:
 
         return results[0][0]
 
-
     def banger_list(self):
 
-        sql_token = os.environ.get('HEROKU_SQL_PASS')
-
-        connection = psycopg2.connect(host='ec2-107-20-141-145.compute-1.amazonaws.com', dbname='d5cejcurhdso4s', user = 'afefiqlegorfsj', password = sql_token)
+        connection = psycopg2.connect(host= self.ip_address, dbname= self.db_name, user = self.sql_user, password = self.sql_token)
         
         cursor = connection.cursor()
 
@@ -301,11 +389,9 @@ class sql_handler:
 
         return results
 
-
     def users(self):
-        sql_token = os.environ.get('HEROKU_SQL_PASS')
 
-        connection = psycopg2.connect(host='ec2-107-20-141-145.compute-1.amazonaws.com', dbname='d5cejcurhdso4s', user = 'afefiqlegorfsj', password = sql_token)
+        connection = psycopg2.connect(host= self.ip_address, dbname= self.db_name, user = self.sql_user, password = self.sql_token)
 
         cursor = connection.cursor()
 

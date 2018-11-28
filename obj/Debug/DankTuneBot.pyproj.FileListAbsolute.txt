@@ -13,3 +13,6 @@ c:\users\ben\documents\visual studio 2015\Projects\DankTuneBot\DankTuneBot\obj\D
 c:\users\ben\documents\visual studio 2015\Projects\DankTuneBot\DankTuneBot\obj\Debug\web.debug.config
 C:\Users\Ben\documents\visual studio 2015\Projects\DankTuneBot\DankTuneBot\obj\Debug\deployment-updated-orig-prefix.txt
 C:\Users\Ben\documents\visual studio 2015\Projects\DankTuneBot\DankTuneBot\ptvs_virtualenv_proxy.py
+C:\Users\Ben\Documents\Visual Studio 2017\Projects\DankTuneBot\DankTuneBot\obj\Debug\DankTuneBot.pyproj.CoreCompileInputs.cache
+C:\Users\Ben\Documents\Visual Studio 2017\Projects\DankTuneBot\DankTuneBot\bin\Microsoft.PythonTools.WebRole.dll
+C:\Users\Ben\Documents\Visual Studio 2017\Projects\DankTuneBot\DankTuneBot\bin\wfastcgi.py
