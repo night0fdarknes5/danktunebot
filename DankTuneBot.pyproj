@@ -16,6 +16,8 @@
     <Name>DankTuneBot</Name>
     <RootNamespace>DankTuneBot</RootNamespace>
     <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
+    <IsWindowsApplication>False</IsWindowsApplication>
+    <InterpreterId>Global|PythonCore|3.6</InterpreterId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -26,6 +28,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="module3.py" />
     <Compile Include="module2.py">
       <SubType>Code</SubType>
     </Compile>
@@ -47,6 +50,9 @@
     <Compile Include="graph_handler.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="module4.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="wipesql.py">
       <SubType>Code</SubType>
     </Compile>
@@ -57,7 +63,9 @@
   <ItemGroup>
     <Folder Include="classes\" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <InterpreterReference Include="Global|PythonCore|3.6" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="requirements.txt" />
   </ItemGroup>

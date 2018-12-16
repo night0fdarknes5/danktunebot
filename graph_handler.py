@@ -2,7 +2,6 @@ import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 
-
 class graph_handler:
     
     def create_total_post_chart(self, users):
