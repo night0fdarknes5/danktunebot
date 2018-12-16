@@ -12,6 +12,24 @@ class sql_handler:
 
     sql_user = 'postgres'
     
+    def seasonal_wipe(self):
+
+        connection = psycopg2.connect(host= self.ip_address, dbname= self.db_name, user = self.sql_user, password = self.sql_token)
+
+        cursor = connection.cursor()
+
+        cursor.execute("BEGIN TRANSACTION") 
+
+        cursor.execute('''DELETE FROM "SeasonalSongData"''')
+
+        cursor.execute('''DELETE FROM "PostedSongData"''')
+
+        cursor.execute("COMMIT TRANSACTION")
+
+        connection.commit()
+
+        connection.close()
+
     def update_listens(self, ts, users):
 
         users_formatted = users
@@ -58,25 +76,27 @@ class sql_handler:
 
         cursor = connection.cursor()
         
-        cursor.execute("BEGIN TRANSACTION") 
+        cursor.execute("BEGIN TRANSACTION")
 
-        cursor.execute('''SELECT * FROM "PostedSongData" WHERE song_name = %s''' % ("'"+song_title+"'"))
+        cursor.execute('''SELECT * FROM "PostedSongData"''')
 
         results = []
 
         for row in cursor:
-            results.append(row)
-
+            if row[1] == song_title:
+                results.append(row)
+        
         if len(results) == 0:
             connection.close()
             return False
 
-        cursor.execute('''SELECT * FROM "PostedSongData" WHERE song_artist = %s''' % ("'"+song_artist+"'"))
+        cursor.execute('''SELECT * FROM "PostedSongData"''')
 
         results.clear()
 
         for row in cursor:
-            results.append(row)
+            if row[3] == song_artist:
+                results.append(row)
 
         connection.close()
 
@@ -222,6 +242,47 @@ class sql_handler:
 
         connection.close()
 
+    def new_seasonal_song(self, ts):
+
+        connection = psycopg2.connect(host= self.ip_address, dbname= self.db_name, user = self.sql_user, password = self.sql_token)
+
+        cursor = connection.cursor()
+
+        cursor.execute("BEGIN TRANSACTION")
+
+        cursor.execute('''SELECT * FROM "PostedSongData" WHERE ts=%s''', [ts])
+
+        for row in cursor:
+            songdata = row
+
+        cursor.execute('''INSERT INTO "SeasonalSongData" VALUES (%s,%s,%s,%s,%s,%s)''', (songdata[0],songdata[1],songdata[2],songdata[3],songdata[4],songdata[5]))
+
+        print("Add Seasonal")
+
+        cursor.execute("COMMIT TRANSACTION")
+
+        connection.commit()
+
+        connection.close()
+
+    def remove_seasonal_song(self, ts):
+
+        connection = psycopg2.connect(host= self.ip_address, dbname= self.db_name, user = self.sql_user, password = self.sql_token)
+
+        cursor = connection.cursor()
+
+        cursor.execute("BEGIN TRANSACTION")
+
+        cursor.execute('''DELETE FROM "SeasonalSongData" WHERE ts = %s'''%("'"+ts+"'"))
+
+        print("Remove Seasonal")
+
+        cursor.execute("COMMIT TRANSACTION")
+
+        connection.commit()
+
+        connection.close()
+
     def update_reaction(self, ts, votes):
 
         connection = psycopg2.connect(host= self.ip_address, dbname= self.db_name, user = self.sql_user, password = self.sql_token)
@@ -269,7 +330,6 @@ class sql_handler:
 
         for row in cursor:
             if int(row[0]) > int(time.time() - ((time.time()%86400)+36000)):
-                print(row)
                 results.append(row)
 
         
@@ -288,7 +348,6 @@ class sql_handler:
         results = []
 
         for row in cursor:
-            print(row)
             if row[0] > (time.time() - period):
                 results.append(row)
         return results

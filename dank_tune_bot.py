@@ -22,19 +22,21 @@ AT_BOT = "<@" + BOT_ID + ">"
 EXAMPLE_COMMAND = "yo"
 client_id = os.environ.get('SPOTIPY_CLIENT_ID')
 secret_client = os.environ.get('SPOTIPY_CLIENT_SECRET') 
-spotify_playlist = os.environ.get('SPOTIFY_PLAYLIST')
+spotify_playlist = ""
+
+timestamp = 1.111
+season_reset = False
 
 # instantiate Slack client and Spotify interface
 slack_client = SlackClient(os.environ.get('SLACK_BOT_TOKEN'))
 client_credentials_manager = SpotifyClientCredentials( client_id,secret_client)
 spotify = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 
-
 graph = graph_handler()
 
 songdb = sql_handler()
 
-def handle_command(command, channel):
+def handle_command(command, channel, user):
     """
         Receives commands directed at the bot and determines if they
         are valid commands. If so, then acts on the commands. If not,
@@ -44,6 +46,9 @@ def handle_command(command, channel):
     r = Commands()
     response = r.check_command(command)
     
+    global timestamp
+    global season_reset
+
     if response == "command1":
         songs = songdb.danktunes_posted_today()
 
@@ -58,8 +63,6 @@ def handle_command(command, channel):
                 attach += ''',{"fallback": "Failed to post song.", "color": "#84bd00", "title": "%s by %s", "title_link": "%s"}'''% (item[1], item[3], item[2])
         
         attach += "]"
-
-        print(attach)
         
         slack_client.api_call("chat.postMessage", channel=channel, text="Dank Songs Posted Today:", as_user=True, unfurl_media=False, attachments=attach)
 
@@ -70,8 +73,6 @@ def handle_command(command, channel):
         text = slack_client.api_call('conversations.info', channel = channel)
         if text['channel']['is_im'] == True:
             dbinfo = songdb.get_unlistened_to(text['channel']['user'])
-        
-        print(dbinfo)
 
         slack_post = []
 
@@ -87,12 +88,12 @@ def handle_command(command, channel):
         if len(dbinfo) != 0:
             for item in dbinfo:
                 if count:
-                     attach += '''{"fallback": "Failed to post song.", "color": "#84bd00", "title": "Spotify Link to: %s by %s", "title_link": "%s"}'''% (item[1], item[3], item[2])
-                     attach += ''',{"fallback": "Failed to post song.", "color": "#f4dc42", "title": "Original Post to: %s by %s", "title_link": "%s"}'''% (item[1], item[3], item[5])
+                     attach += '''{"fallback": "Failed to post song.", "color": "#84bd00", "title": "Spotify Link: %s by %s", "title_link": "%s"}'''% (item[1], item[3], item[2])
+                     attach += ''',{"fallback": "Failed to post song.", "color": "#f4dc42", "title": "Original Post Link: %s by %s", "title_link": "%s"}'''% (item[1], item[3], item[5])
                      count = False
                 elif not count:
-                    attach += ''',{"fallback": "Failed to post song.", "color": "#84bd00", "title": "Spotify Link to: %s by %s", "title_link": "%s"}'''% (item[1], item[3], item[2])
-                    attach += ''',{"fallback": "Failed to post song.", "color": "#f4dc42", "title": "Original Post to: %s by %s", "title_link": "%s"}'''% (item[1], item[3], item[5])
+                    attach += ''',{"fallback": "Failed to post song.", "color": "#84bd00", "title": "Spotify Link: %s by %s", "title_link": "%s"}'''% (item[1], item[3], item[2])
+                    attach += ''',{"fallback": "Failed to post song.", "color": "#f4dc42", "title": "Original Post Link: %s by %s", "title_link": "%s"}'''% (item[1], item[3], item[5])
         
             attach += "]"
         
@@ -127,6 +128,30 @@ def handle_command(command, channel):
         graph.create_total_post_chart(users)
         slack_client.api_call('files.upload', channels=channel, filename= "Total Posts Chart.png", file=open("./charts/Total Posts Chart.png", 'rb'))
 
+    elif response == "command5":
+
+        if r.check_admin(user):
+
+            r.set_playlist_temp(command)
+
+            timestamp = time.time()
+
+            slack_client.api_call("chat.postMessage", channel=channel, text="*New Playlist Successfully Set.*\n Use Command \"yo begin season\" within 5 minutes to wipe posted song data from this season.", as_user=True)
+        else:
+            slack_client.api_call("chat.postMessage", channel=channel, text="You do not have permissions to perform this action", as_user=True)
+
+    elif response == "command6":
+
+        if timestamp > time.time()-60*5:
+
+            season_reset = True
+
+            print("Seasonal Reset Queued")
+
+            slack_client.api_call("chat.postMessage", channel=channel, text="*Seasonal reset will occur at midnight*", as_user=True)
+        else:
+            slack_client.api_call("chat.postMessage", channel=channel, text="5 minute limit has elapsed please post playlist again.", as_user=True)
+
     else:
 
         slack_client.api_call("chat.postMessage", channel=channel,
@@ -141,14 +166,17 @@ def parse_slack_command_output(output):
 
     if output and 'text' in output and AT_BOT in output['text']:
         # return text after the @ mention, whitespace removed
-        return " " + output['text'].split(AT_BOT)[1].lower(), output['channel']
-    return None, None
+        return " " + output['text'].split(AT_BOT)[1], output['channel'], output['user']
+    return None, None, None
 
 def parse_song_info(data):
     #    Takes Data imported from the slack RTM API and parses it into information to be stored. 
     #    Also sends a message updating the users on the amount of songs they have posted.
     #    Will eventually also export to an external database so Commands.py can read in 
     #    data and notify the group of Banger Status
+
+    if "playlist" in data['message']['attachments'][0]['title_link']:
+        return;
 
     songtitle = data['message']['attachments'][0]['title']
     songlink = data['message']['attachments'][0]['title_link']
@@ -193,13 +221,15 @@ def generate_bangers():
     """
     bangersdb = songdb.banger_list()
 
-    playlist = spotify.user_playlist(user = '1274812788', playlist_id = spotify_playlist)
+    userid = spotify_playlist.split("/user/")[1].split("/playlist/")[0]
+
+    playlist = spotify.user_playlist(user = userid, playlist_id = spotify_playlist)
     offsetno = (playlist['tracks']['total'] -100)
 
     if offsetno < 0:
         offsetno = 0
 
-    bangers_and_gash = spotify.user_playlist_tracks(user = '1274812788', playlist_id = spotify_playlist, offset = int(offsetno))
+    bangers_and_gash = spotify.user_playlist_tracks(user = userid, playlist_id = spotify_playlist, offset = int(offsetno))
 
     list = []
 
@@ -244,7 +274,7 @@ def reaction_changed(input):
                 for user in reaction['users']:
                     user_listens.append(user)
 
-    print(user_listens)
+    #print(user_listens)
 
     songdb.update_listens(input['item']['ts'],user_listens)
 
@@ -252,16 +282,24 @@ def reaction_changed(input):
 
     if len(user_reactions) > db_vote:# This is when the song is upvoted
         songdb.update_reaction(input['item']['ts'],len(user_reactions))
-        if len(user_reactions) == 3:
+        if len(user_reactions) == 5:
              songdb.new_dank_song(input['item']['ts'])
+        if len(user_reactions) == 3:
+             songdb.new_seasonal_song(input['item']['ts'])
     elif len(user_reactions) < db_vote:# This is when the song is down voted
         songdb.update_reaction(input['item']['ts'],len(user_reactions))
-        if len(user_reactions) == 2:
+        if len(user_reactions) == 4:
           songdb.remove_dank_song(input['item']['ts'])
+        if len(user_reactions) == 2:
+          songdb.remove_seasonal_song(input['item']['ts'])
     else:
         return
 
 if __name__ == "__main__":
+    
+    r = Commands()
+    spotify_playlist = r.get_playlist()
+    
     READ_WEBSOCKET_DELAY = 1 # 1 second delay between reading from stream
     if slack_client.rtm_connect():
         print("DankTuneBot connected and running!")
@@ -289,11 +327,11 @@ if __name__ == "__main__":
                             if songdb.song_exists(input['item']['ts']):
                                 reaction_changed(input)
 
-                command, channel = parse_slack_command_output(input)
+                command, channel, user = parse_slack_command_output(input)
 
                 if command and channel:
                     if message[0]['user'] != BOT_ID:
-                        handle_command(command, channel)
+                        handle_command(command, channel,user)
             
                 previousinput = input
 
@@ -312,17 +350,21 @@ if __name__ == "__main__":
                                 attach += ''',{"fallback": "Failed to post song.", "color": "#84bd00", "title": "%s by %s", "title_link": "%s"}'''% (item[1], item[3], item[2])
         
                             attach += "]"
-
-                            print(attach)
         
                         slack_client.api_call("chat.postMessage", channel='D5D5Z0D6H', text="Dank Songs Posted Today:", as_user=True, unfurl_media=False, attachments=attach)
                         dailyreset = True
                     else:
                         slack_client.api_call("chat.postMessage", channel='D5D5Z0D6H', text="No Dank Songs Posted Today", as_user=True)
             
-            if (time.time()- 50400)%86400 <= 1:
+            if ((time.time()- 50400)%86400) <= 1:
                 print("Reset")
                 songdb.clear_posted_today()
+                if season_reset:
+                    print("Seasonal Reset!")
+                    r.set_playlist()
+                    songdb.seasonal_wipe()
+                    season_reset = False
+
                     
 
             time.sleep(READ_WEBSOCKET_DELAY)
