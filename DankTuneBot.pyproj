@@ -53,6 +53,12 @@
     <Compile Include="module4.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="module5.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="module6.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="wipesql.py">
       <SubType>Code</SubType>
     </Compile>
@@ -67,6 +73,10 @@
     <InterpreterReference Include="Global|PythonCore|3.6" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="admins.json" />
+    <Content Include="command_database.json" />
+    <Content Include="playlist_temp.json" />
+    <Content Include="playlist.json" />
     <Content Include="requirements.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Web.targets" />
