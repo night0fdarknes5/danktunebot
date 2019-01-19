@@ -355,6 +355,24 @@ if __name__ == "__main__":
                         dailyreset = True
                     else:
                         slack_client.api_call("chat.postMessage", channel='D5D5Z0D6H', text="No Dank Songs Posted Today", as_user=True)
+
+                    songs = songdb.seasonal_tunes_posted_today()
+                    attach = "["
+                    count=True
+                    if len(songs) != 0:
+                        for item in songs:
+                            if count:
+                                attach += '''{"fallback": "Failed to post song.", "color": "#84bd00", "title": "%s by %s", "title_link": "%s"}'''% (item[1], item[3], item[2])
+                                count = False
+                            elif not count:
+                                attach += ''',{"fallback": "Failed to post song.", "color": "#84bd00", "title": "%s by %s", "title_link": "%s"}'''% (item[1], item[3], item[2])
+        
+                            attach += "]"
+        
+                        slack_client.api_call("chat.postMessage", channel='D5D5Z0D6H', text="Dank Songs Posted Today:", as_user=True, unfurl_media=False, attachments=attach)
+                        dailyreset = True
+                    else:
+                        slack_client.api_call("chat.postMessage", channel='D5D5Z0D6H', text="No Seasonal Songs Posted Today", as_user=True)
             
             if ((time.time()- 50400)%86400) <= 1:
                 print("Reset")

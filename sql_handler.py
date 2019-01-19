@@ -324,6 +324,25 @@ class sql_handler:
 
         cursor = connection.cursor()
 
+        cursor.execute('''SELECT * FROM "SeasonalSongData"''')
+
+        results = []
+
+        for row in cursor:
+            if int(row[0]) > int(time.time() - ((time.time()%86400)+36000)):
+                results.append(row)
+
+        
+        connection.close()
+
+        return results
+
+    def seasonal_tunes_posted_today(self):
+
+        connection = psycopg2.connect(host= self.ip_address, dbname= self.db_name, user = self.sql_user, password = self.sql_token)
+
+        cursor = connection.cursor()
+
         cursor.execute('''SELECT * FROM "DankSongData"''')
 
         results = []
